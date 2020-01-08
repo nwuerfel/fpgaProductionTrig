@@ -1,0 +1,13 @@
+BEGIN
+   Aa (11 downto 0) <= A_DIN_L (13 downto 2);
+   Aa (22 downto 12) <= A_DIN_L (28 downto 18);
+   Ba (15 downto 0) <= B_DIN_L (15 downto 0);
+   Da (15 downto 0) <= B_DIN_L (31 downto 16);
+   Ea (7 downto 0) <= D_DIN_L (23 downto 16);
+   Ea (15 downto 8) <= D_DIN_L (7 downto 0);
+   Eb (7 downto 0) <= D_DIN_L (31 downto 24);
+   Eb (15 downto 8) <= D_DIN_L (15 downto 8);
+   F_DOUT_L(11 downto 0) <=PF_temp_lv8( 11 downto 0);
+   C_DOUT_L(11 downto 0) <=PF_temp_lv8( 11 downto 0);
+   F_DOUT_L(23 downto 12) <=NF_temp_lv8( 11 downto 0);
+   C_DOUT_L(23 downto 12) <=NF_temp_lv8( 11 downto 0);

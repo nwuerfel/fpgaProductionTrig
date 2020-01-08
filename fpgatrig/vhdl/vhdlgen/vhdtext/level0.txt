@@ -1,0 +1,360 @@
+lookuptable_LV0 : process(c1)
+begin
+ if c1'event and c1='1' then
+        if(Ea( 0)='1' OR Eb( 0)='1' )then
+          E( 0)<='1';
+          else
+          E( 0)<='0';
+          end if;
+        if(Ea( 1)='1' OR Eb( 1)='1' )then
+          E( 1)<='1';
+          else
+          E( 1)<='0';
+          end if;
+        if(Ea( 2)='1' OR Eb( 2)='1' )then
+          E( 2)<='1';
+          else
+          E( 2)<='0';
+          end if;
+        if(Ea( 3)='1' OR Eb( 3)='1' )then
+          E( 3)<='1';
+          else
+          E( 3)<='0';
+          end if;
+        if(Ea( 4)='1' OR Eb( 4)='1' )then
+          E( 4)<='1';
+          else
+          E( 4)<='0';
+          end if;
+        if(Ea( 5)='1' OR Eb( 5)='1' )then
+          E( 5)<='1';
+          else
+          E( 5)<='0';
+          end if;
+        if(Ea( 6)='1' OR Eb( 6)='1' )then
+          E( 6)<='1';
+          else
+          E( 6)<='0';
+          end if;
+        if(Ea( 7)='1' OR Eb( 7)='1' )then
+          E( 7)<='1';
+          else
+          E( 7)<='0';
+          end if;
+        if(Ea( 8)='1' OR Eb( 8)='1' )then
+          E( 8)<='1';
+          else
+          E( 8)<='0';
+          end if;
+        if(Ea( 9)='1' OR Eb( 9)='1' )then
+          E( 9)<='1';
+          else
+          E( 9)<='0';
+          end if;
+        if(Ea(10)='1' OR Eb(10)='1' )then
+          E(10)<='1';
+          else
+          E(10)<='0';
+          end if;
+        if(Ea(11)='1' OR Eb(11)='1' )then
+          E(11)<='1';
+          else
+          E(11)<='0';
+          end if;
+        if(Ea(12)='1' OR Eb(12)='1' )then
+          E(12)<='1';
+          else
+          E(12)<='0';
+          end if;
+        if(Ea(13)='1' OR Eb(13)='1' )then
+          E(13)<='1';
+          else
+          E(13)<='0';
+          end if;
+        if(Ea(14)='1' OR Eb(14)='1' )then
+          E(14)<='1';
+          else
+          E(14)<='0';
+          end if;
+        if(Ea(15)='1' OR Eb(15)='1' )then
+          E(15)<='1';
+          else
+          E(15)<='0';
+          end if;
+        if(Da( 0)='1' )then
+          D( 0)<='1';
+          else
+          D( 0)<='0';
+          end if;
+        if(Da( 1)='1' )then
+          D( 1)<='1';
+          else
+          D( 1)<='0';
+          end if;
+        if(Da( 2)='1' )then
+          D( 2)<='1';
+          else
+          D( 2)<='0';
+          end if;
+        if(Da( 3)='1' )then
+          D( 3)<='1';
+          else
+          D( 3)<='0';
+          end if;
+        if(Da( 4)='1' )then
+          D( 4)<='1';
+          else
+          D( 4)<='0';
+          end if;
+        if(Da( 5)='1' )then
+          D( 5)<='1';
+          else
+          D( 5)<='0';
+          end if;
+        if(Da( 6)='1' )then
+          D( 6)<='1';
+          else
+          D( 6)<='0';
+          end if;
+        if(Da( 7)='1' )then
+          D( 7)<='1';
+          else
+          D( 7)<='0';
+          end if;
+        if(Da( 8)='1' )then
+          D( 8)<='1';
+          else
+          D( 8)<='0';
+          end if;
+        if(Da( 9)='1' )then
+          D( 9)<='1';
+          else
+          D( 9)<='0';
+          end if;
+        if(Da(10)='1' )then
+          D(10)<='1';
+          else
+          D(10)<='0';
+          end if;
+        if(Da(11)='1' )then
+          D(11)<='1';
+          else
+          D(11)<='0';
+          end if;
+        if(Da(12)='1' )then
+          D(12)<='1';
+          else
+          D(12)<='0';
+          end if;
+        if(Da(13)='1' )then
+          D(13)<='1';
+          else
+          D(13)<='0';
+          end if;
+        if(Da(14)='1' )then
+          D(14)<='1';
+          else
+          D(14)<='0';
+          end if;
+        if(Da(15)='1' )then
+          D(15)<='1';
+          else
+          D(15)<='0';
+          end if;
+        if(Ba( 0)='1' )then
+          B( 0)<='1';
+          else
+          B( 0)<='0';
+          end if;
+        if(Ba( 1)='1' )then
+          B( 1)<='1';
+          else
+          B( 1)<='0';
+          end if;
+        if(Ba( 2)='1' )then
+          B( 2)<='1';
+          else
+          B( 2)<='0';
+          end if;
+        if(Ba( 3)='1' )then
+          B( 3)<='1';
+          else
+          B( 3)<='0';
+          end if;
+        if(Ba( 4)='1' )then
+          B( 4)<='1';
+          else
+          B( 4)<='0';
+          end if;
+        if(Ba( 5)='1' )then
+          B( 5)<='1';
+          else
+          B( 5)<='0';
+          end if;
+        if(Ba( 6)='1' )then
+          B( 6)<='1';
+          else
+          B( 6)<='0';
+          end if;
+        if(Ba( 7)='1' )then
+          B( 7)<='1';
+          else
+          B( 7)<='0';
+          end if;
+        if(Ba( 8)='1' )then
+          B( 8)<='1';
+          else
+          B( 8)<='0';
+          end if;
+        if(Ba( 9)='1' )then
+          B( 9)<='1';
+          else
+          B( 9)<='0';
+          end if;
+        if(Ba(10)='1' )then
+          B(10)<='1';
+          else
+          B(10)<='0';
+          end if;
+        if(Ba(11)='1' )then
+          B(11)<='1';
+          else
+          B(11)<='0';
+          end if;
+        if(Ba(12)='1' )then
+          B(12)<='1';
+          else
+          B(12)<='0';
+          end if;
+        if(Ba(13)='1' )then
+          B(13)<='1';
+          else
+          B(13)<='0';
+          end if;
+        if(Ba(14)='1' )then
+          B(14)<='1';
+          else
+          B(14)<='0';
+          end if;
+        if(Ba(15)='1' )then
+          B(15)<='1';
+          else
+          B(15)<='0';
+          end if;
+        if(Aa( 0)='1' )then
+          A( 0)<='1';
+          else
+          A( 0)<='0';
+          end if;
+        if(Aa( 1)='1' )then
+          A( 1)<='1';
+          else
+          A( 1)<='0';
+          end if;
+        if(Aa( 2)='1' )then
+          A( 2)<='1';
+          else
+          A( 2)<='0';
+          end if;
+        if(Aa( 3)='1' )then
+          A( 3)<='1';
+          else
+          A( 3)<='0';
+          end if;
+        if(Aa( 4)='1' )then
+          A( 4)<='1';
+          else
+          A( 4)<='0';
+          end if;
+        if(Aa( 5)='1' )then
+          A( 5)<='1';
+          else
+          A( 5)<='0';
+          end if;
+        if(Aa( 6)='1' )then
+          A( 6)<='1';
+          else
+          A( 6)<='0';
+          end if;
+        if(Aa( 7)='1' )then
+          A( 7)<='1';
+          else
+          A( 7)<='0';
+          end if;
+        if(Aa( 8)='1' )then
+          A( 8)<='1';
+          else
+          A( 8)<='0';
+          end if;
+        if(Aa( 9)='1' )then
+          A( 9)<='1';
+          else
+          A( 9)<='0';
+          end if;
+        if(Aa(10)='1' )then
+          A(10)<='1';
+          else
+          A(10)<='0';
+          end if;
+        if(Aa(11)='1' )then
+          A(11)<='1';
+          else
+          A(11)<='0';
+          end if;
+        if(Aa(12)='1' )then
+          A(12)<='1';
+          else
+          A(12)<='0';
+          end if;
+        if(Aa(13)='1' )then
+          A(13)<='1';
+          else
+          A(13)<='0';
+          end if;
+        if(Aa(14)='1' )then
+          A(14)<='1';
+          else
+          A(14)<='0';
+          end if;
+        if(Aa(15)='1' )then
+          A(15)<='1';
+          else
+          A(15)<='0';
+          end if;
+        if(Aa(16)='1' )then
+          A(16)<='1';
+          else
+          A(16)<='0';
+          end if;
+        if(Aa(17)='1' )then
+          A(17)<='1';
+          else
+          A(17)<='0';
+          end if;
+        if(Aa(18)='1' )then
+          A(18)<='1';
+          else
+          A(18)<='0';
+          end if;
+        if(Aa(19)='1' )then
+          A(19)<='1';
+          else
+          A(19)<='0';
+          end if;
+        if(Aa(20)='1' )then
+          A(20)<='1';
+          else
+          A(20)<='0';
+          end if;
+        if(Aa(21)='1' )then
+          A(21)<='1';
+          else
+          A(21)<='0';
+          end if;
+        if(Aa(22)='1' )then
+          A(22)<='1';
+          else
+          A(22)<='0';
+          end if;
+ end if;
+end process;

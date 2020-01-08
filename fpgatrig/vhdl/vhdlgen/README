@@ -1,0 +1,12 @@
+Python program to generate trigger matrix from roads...
+
+    rewriting this because Forhad changed the station 1 mapping at
+    discriminators
+
+    road2vhdl.py generates L1 matrix from roads.tsv file
+
+
+
+    NIM: nonsense -> actual
+    ~~~~ ~~~~~~~~    ~~~~~~
+    

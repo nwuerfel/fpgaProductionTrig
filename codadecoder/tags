@@ -1,0 +1,414 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADAQCP	decoder/THaEtClient.h	/^#define ADAQCP /;"	d
+ADAQEP	decoder/THaEtClient.h	/^#define ADAQEP /;"	d
+ADAQL1	decoder/THaEtClient.h	/^#define ADAQL1 /;"	d
+ADAQL2	decoder/THaEtClient.h	/^#define ADAQL2 /;"	d
+ADAQS2	decoder/THaEtClient.h	/^#define ADAQS2 /;"	d
+ADAQS3	decoder/THaEtClient.h	/^#define ADAQS3 /;"	d
+ALL_LIBS	decoder/Makefile	/^     ALL_LIBS = $(LIBS) $(ONLIBS)$/;"	m
+ALL_LIBS	decoder/Makefile	/^     ALL_LIBS = $(LIBS)$/;"	m
+ALL_LIBS	decoder/Makefile	/^   ALL_LIBS = $(EVIO_LIB) $(GLIBS) $(ROOTLIBS)$/;"	m
+BIG_TIMEOUT	decoder/THaEtClient.h	/^    int BIG_TIMEOUT; $/;"	m	class:THaEtClient
+CHUNK	decoder/THaEtClient.h	/^    int CHUNK;$/;"	m	class:THaEtClient
+CODA	decoder/Makefile	/^   CODA = \/adaqfs\/coda\/2.2$/;"	m
+CODA	decoder/Makefile	/^   CODA = \/usr\/local\/coda\/2.6$/;"	m
+CODA_DEBUG	decoder/THaCodaData.h	/^#define CODA_DEBUG /;"	d
+CODA_ERROR	decoder/THaCodaData.h	/^#define CODA_ERROR /;"	d
+CODA_OK	decoder/THaCodaData.h	/^#define CODA_OK /;"	d
+CODA_VERBOSE	decoder/THaCodaData.h	/^#define CODA_VERBOSE /;"	d
+CXX	decoder/Makefile	/^   CXX           = CC$/;"	m
+CXX	decoder/Makefile	/^   CXX           = g++$/;"	m
+CXXFLAGS	decoder/Makefile	/^   CXXFLAGS      = -O  -DSUNVERS$/;"	m
+CXXFLAGS	decoder/Makefile	/^   CXXFLAGS      = -O -Wall -std=c++11 -fno-exceptions -fPIC $(INCLUDES)$/;"	m
+CXXFLAGS	decoder/Makefile	/^   CXXFLAGS      = -Wall -std=c++11 -fno-rtti -fno-exceptions -fPIC \\$/;"	m
+ClassImp	decoder/THaCodaData.C	/^ClassImp(THaCodaData)$/;"	f
+ClassImp	decoder/THaCodaFile.C	/^ClassImp(THaCodaFile)$/;"	f
+ClassImp	decoder/THaEtClient.C	/^ClassImp(THaEtClient)$/;"	f
+DEBUG	decoder/THaEtClient.h	/^    int DEBUG; $/;"	m	class:THaEtClient
+DECODE_OBJS	decoder/Makefile	/^DECODE_OBJS = $(SRC:.C=.o)$/;"	m
+DEPS	decoder/Makefile	/^DEPS = $(SRC:.C=.d)$/;"	m
+DSTDC_INT_VEC	decoder/DslTdc.h	/^#define DSTDC_INT_VEC /;"	d
+DSTDC_MAX_BOARDS	decoder/DslTdc.h	/^#define DSTDC_MAX_BOARDS /;"	d
+DSTDC_VME_INT_LEVEL	decoder/DslTdc.h	/^#define DSTDC_VME_INT_LEVEL /;"	d
+ETMEM_PREFIX	decoder/THaEtClient.h	/^#define ETMEM_PREFIX /;"	d
+ET_AC_FLAGS	decoder/Makefile	/^   ET_AC_FLAGS = -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS$/;"	m
+ET_AC_FLAGS	decoder/Makefile	/^   ET_AC_FLAGS = -D_REENTRANT -D_POSIX_THREAD_SEMANTICS$/;"	m
+ET_ASYNC	decoder/et.h	/^#define ET_ASYNC /;"	d
+ET_BROADCAST	decoder/et.h	/^#define ET_BROADCAST /;"	d
+ET_BROADCAST_ADDR	decoder/et.h	/^#define ET_BROADCAST_ADDR /;"	d
+ET_BROADCAST_PORT	decoder/et.h	/^#define ET_BROADCAST_PORT /;"	d
+ET_CFLAGS	decoder/Makefile	/^   ET_CFLAGS = -02 -fPIC $(ET_AC_FLAGS) -DLINUXVERS$/;"	m
+ET_CFLAGS	decoder/Makefile	/^   ET_CFLAGS = -mt -fast -xO5  $(ET_AC_FLAGS) -DSUNVERS$/;"	m
+ET_CHUNK_SIZE	decoder/THaEtClient.h	/^#define ET_CHUNK_SIZE /;"	d
+ET_DATA_CORRUPT	decoder/et.h	/^#define ET_DATA_CORRUPT /;"	d
+ET_DATA_OK	decoder/et.h	/^#define ET_DATA_OK /;"	d
+ET_DATA_POSSIBLY_CORRUPT	decoder/et.h	/^#define ET_DATA_POSSIBLY_CORRUPT /;"	d
+ET_DEBUG_ERROR	decoder/et.h	/^#define ET_DEBUG_ERROR /;"	d
+ET_DEBUG_INFO	decoder/et.h	/^#define ET_DEBUG_INFO /;"	d
+ET_DEBUG_NONE	decoder/et.h	/^#define ET_DEBUG_NONE /;"	d
+ET_DEBUG_SEVERE	decoder/et.h	/^#define ET_DEBUG_SEVERE /;"	d
+ET_DEBUG_WARN	decoder/et.h	/^#define ET_DEBUG_WARN /;"	d
+ET_DIRECT	decoder/et.h	/^#define ET_DIRECT /;"	d
+ET_ERROR	decoder/et.h	/^#define ET_ERROR /;"	d
+ET_ERROR_BUSY	decoder/et.h	/^#define ET_ERROR_BUSY /;"	d
+ET_ERROR_DEAD	decoder/et.h	/^#define ET_ERROR_DEAD /;"	d
+ET_ERROR_EMPTY	decoder/et.h	/^#define ET_ERROR_EMPTY /;"	d
+ET_ERROR_EXISTS	decoder/et.h	/^#define ET_ERROR_EXISTS /;"	d
+ET_ERROR_NOREMOTE	decoder/et.h	/^#define ET_ERROR_NOREMOTE /;"	d
+ET_ERROR_READ	decoder/et.h	/^#define ET_ERROR_READ /;"	d
+ET_ERROR_REMOTE	decoder/et.h	/^#define ET_ERROR_REMOTE /;"	d
+ET_ERROR_TIMEOUT	decoder/et.h	/^#define ET_ERROR_TIMEOUT /;"	d
+ET_ERROR_TOOMANY	decoder/et.h	/^#define ET_ERROR_TOOMANY /;"	d
+ET_ERROR_WAKEUP	decoder/et.h	/^#define ET_ERROR_WAKEUP /;"	d
+ET_ERROR_WRITE	decoder/et.h	/^#define ET_ERROR_WRITE /;"	d
+ET_EVENT_NEW	decoder/et.h	/^#define ET_EVENT_NEW /;"	d
+ET_EVENT_NORMAL	decoder/et.h	/^#define ET_EVENT_NORMAL /;"	d
+ET_EVENT_TEMP	decoder/et.h	/^#define ET_EVENT_TEMP /;"	d
+ET_EVENT_USED	decoder/et.h	/^#define ET_EVENT_USED /;"	d
+ET_FILENAME_LENGTH	decoder/et.h	/^#define ET_FILENAME_LENGTH /;"	d
+ET_FUNCNAME_LENGTH	decoder/et.h	/^#define ET_FUNCNAME_LENGTH /;"	d
+ET_GRANDCENTRAL	decoder/et.h	/^#define ET_GRANDCENTRAL /;"	d
+ET_HIGH	decoder/et.h	/^#define ET_HIGH /;"	d
+ET_HOST_ANYWHERE	decoder/et.h	/^#define ET_HOST_ANYWHERE /;"	d
+ET_HOST_AS_LOCAL	decoder/et.h	/^#define ET_HOST_AS_LOCAL /;"	d
+ET_HOST_AS_REMOTE	decoder/et.h	/^#define ET_HOST_AS_REMOTE /;"	d
+ET_HOST_LOCAL	decoder/et.h	/^#define ET_HOST_LOCAL /;"	d
+ET_HOST_REMOTE	decoder/et.h	/^#define ET_HOST_REMOTE /;"	d
+ET_LOCAL	decoder/et.h	/^#define ET_LOCAL /;"	d
+ET_LOCAL_NOSHARE	decoder/et.h	/^#define ET_LOCAL_NOSHARE /;"	d
+ET_LOW	decoder/et.h	/^#define ET_LOW /;"	d
+ET_MODIFY	decoder/et.h	/^#define ET_MODIFY /;"	d
+ET_MULTICAST	decoder/et.h	/^#define ET_MULTICAST /;"	d
+ET_MULTICAST_ADDR	decoder/et.h	/^#define ET_MULTICAST_ADDR /;"	d
+ET_MULTICAST_PORT	decoder/et.h	/^#define ET_MULTICAST_PORT /;"	d
+ET_MULTICAST_TTL	decoder/et.h	/^#define ET_MULTICAST_TTL /;"	d
+ET_NOSWAP	decoder/et.h	/^#define ET_NOSWAP /;"	d
+ET_OK	decoder/et.h	/^#define ET_OK /;"	d
+ET_OPEN_NOWAIT	decoder/et.h	/^#define ET_OPEN_NOWAIT /;"	d
+ET_OPEN_WAIT	decoder/et.h	/^#define ET_OPEN_WAIT /;"	d
+ET_REMOTE	decoder/et.h	/^#define ET_REMOTE /;"	d
+ET_SERVER_PORT	decoder/et.h	/^#define ET_SERVER_PORT /;"	d
+ET_SLEEP	decoder/et.h	/^#define ET_SLEEP /;"	d
+ET_STATION_ACTIVE	decoder/et.h	/^#define ET_STATION_ACTIVE /;"	d
+ET_STATION_BLOCKING	decoder/et.h	/^#define ET_STATION_BLOCKING /;"	d
+ET_STATION_CREATING	decoder/et.h	/^#define ET_STATION_CREATING /;"	d
+ET_STATION_CUE	decoder/et.h	/^#define ET_STATION_CUE /;"	d
+ET_STATION_IDLE	decoder/et.h	/^#define ET_STATION_IDLE /;"	d
+ET_STATION_NONBLOCKING	decoder/et.h	/^#define ET_STATION_NONBLOCKING /;"	d
+ET_STATION_PRESCALE	decoder/et.h	/^#define ET_STATION_PRESCALE /;"	d
+ET_STATION_PROTECTED	decoder/et.h	/^#define ET_STATION_PROTECTED /;"	d
+ET_STATION_RESTORE_GC	decoder/et.h	/^#define ET_STATION_RESTORE_GC /;"	d
+ET_STATION_RESTORE_IN	decoder/et.h	/^#define ET_STATION_RESTORE_IN /;"	d
+ET_STATION_RESTORE_OUT	decoder/et.h	/^#define ET_STATION_RESTORE_OUT /;"	d
+ET_STATION_SELECT_ALL	decoder/et.h	/^#define ET_STATION_SELECT_ALL /;"	d
+ET_STATION_SELECT_INTS	decoder/et.h	/^#define ET_STATION_SELECT_INTS /;"	d
+ET_STATION_SELECT_MATCH	decoder/et.h	/^#define ET_STATION_SELECT_MATCH /;"	d
+ET_STATION_SELECT_USER	decoder/et.h	/^#define ET_STATION_SELECT_USER /;"	d
+ET_STATION_UNPROTECTED	decoder/et.h	/^#define ET_STATION_UNPROTECTED /;"	d
+ET_STATION_UNUSED	decoder/et.h	/^#define ET_STATION_UNUSED /;"	d
+ET_STATION_USER_MULTI	decoder/et.h	/^#define ET_STATION_USER_MULTI /;"	d
+ET_STATION_USER_SINGLE	decoder/et.h	/^#define ET_STATION_USER_SINGLE /;"	d
+ET_STATNAME_LENGTH	decoder/et.h	/^#define ET_STATNAME_LENGTH /;"	d
+ET_SWAP	decoder/et.h	/^#define ET_SWAP /;"	d
+ET_SYS	decoder/et.h	/^#define ET_SYS /;"	d
+ET_SYSTEM_ESIZE	decoder/et.h	/^#define ET_SYSTEM_ESIZE /;"	d
+ET_SYSTEM_EVENTS	decoder/et.h	/^#define ET_SYSTEM_EVENTS /;"	d
+ET_SYSTEM_NSTATS	decoder/et.h	/^#define ET_SYSTEM_NSTATS /;"	d
+ET_SYSTEM_NTEMPS	decoder/et.h	/^#define ET_SYSTEM_NTEMPS /;"	d
+ET_TEMPNAME_LENGTH	decoder/et.h	/^#define ET_TEMPNAME_LENGTH /;"	d
+ET_TIMED	decoder/et.h	/^#define ET_TIMED /;"	d
+EVBLOCKSIZE	decoder/evio.C	/^#define EVBLOCKSIZE /;"	d	file:
+EVBLOCKSIZE	decoder/evio.h	/^#define EVBLOCKSIZE /;"	d
+EVBSEARCH	decoder/evio.C	/^} EVBSEARCH;$/;"	t	typeref:struct:evBinarySearch	file:
+EVFILE	decoder/evio.h	/^} EVFILE;$/;"	t	typeref:struct:evfilestruct
+EVIO_H	decoder/evio.h	/^#define EVIO_H$/;"	d
+EVIO_LIB	decoder/Makefile	/^   EVIO_LIB=libevio.a$/;"	m
+EV_HDSIZ	decoder/evio.C	/^#define EV_HDSIZ /;"	d	file:
+EV_HDSIZ	decoder/evio.h	/^#define EV_HDSIZ /;"	d
+EV_HD_BLKNUM	decoder/evio.C	/^#define EV_HD_BLKNUM /;"	d	file:
+EV_HD_BLKNUM	decoder/evio.h	/^#define EV_HD_BLKNUM /;"	d
+EV_HD_BLKSIZ	decoder/evio.C	/^#define EV_HD_BLKSIZ /;"	d	file:
+EV_HD_BLKSIZ	decoder/evio.h	/^#define EV_HD_BLKSIZ /;"	d
+EV_HD_HDSIZ	decoder/evio.C	/^#define EV_HD_HDSIZ /;"	d	file:
+EV_HD_HDSIZ	decoder/evio.h	/^#define EV_HD_HDSIZ /;"	d
+EV_HD_MAGIC	decoder/evio.C	/^#define EV_HD_MAGIC /;"	d	file:
+EV_HD_MAGIC	decoder/evio.h	/^#define EV_HD_MAGIC /;"	d
+EV_HD_RESVD	decoder/evio.C	/^#define EV_HD_RESVD /;"	d	file:
+EV_HD_RESVD	decoder/evio.h	/^#define EV_HD_RESVD /;"	d
+EV_HD_START	decoder/evio.C	/^#define EV_HD_START /;"	d	file:
+EV_HD_START	decoder/evio.h	/^#define EV_HD_START /;"	d
+EV_HD_USED	decoder/evio.C	/^#define EV_HD_USED /;"	d	file:
+EV_HD_USED	decoder/evio.h	/^#define EV_HD_USED /;"	d
+EV_HD_VER	decoder/evio.C	/^#define EV_HD_VER /;"	d	file:
+EV_HD_VER	decoder/evio.h	/^#define EV_HD_VER /;"	d
+EV_MAGIC	decoder/evio.C	/^#define EV_MAGIC /;"	d	file:
+EV_MAGIC	decoder/evio.h	/^#define EV_MAGIC /;"	d
+EV_READ	decoder/evio.C	/^#define EV_READ /;"	d	file:
+EV_READ	decoder/evio.h	/^#define EV_READ /;"	d
+EV_VERSION	decoder/evio.C	/^#define EV_VERSION /;"	d	file:
+EV_VERSION	decoder/evio.h	/^#define EV_VERSION /;"	d
+EV_WRITE	decoder/evio.C	/^#define EV_WRITE /;"	d	file:
+EV_WRITE	decoder/evio.h	/^#define EV_WRITE /;"	d
+Event	decoder/DslTdc.h	/^  volatile unsigned int Event[64];       \/\/ event$/;"	m	struct:dsTdc2_struct
+FAST	decoder/THaEtClient.h	/^    int FAST; $/;"	m	class:THaEtClient
+GLIB	decoder/Makefile	/^   GLIB =  -lm -lc -lgen -lw -lsocket -lnsl -ldl$/;"	m
+GLIBS	decoder/Makefile	/^   GLIBS         = $(ROOTGLIBS) -L\/usr\/X11R6\/lib -lXpm -lX11$/;"	m
+GetTDC	decoder/decoder.C	/^double GetTDC(int Trig, int Data, int Positive, int& FineTrigBin, int& FineDataBin)$/;"	f
+HEAD	decoder/Makefile	/^HEAD = $(SRC:.C=.h)$/;"	m
+INCLUDES	decoder/Makefile	/^   INCLUDES      = -I$(ROOTSYS)\/include$/;"	m
+LD	decoder/Makefile	/^   LD            = CC$/;"	m
+LD	decoder/Makefile	/^   LD            = g++$/;"	m
+LDFLAGS	decoder/Makefile	/^   LDFLAGS       = -g -D$/;"	m
+LDFLAGS	decoder/Makefile	/^   LDFLAGS       =$/;"	m
+LIBET	decoder/Makefile	/^   LIBET = .\/lib\/libet.so$/;"	m
+LIBS	decoder/Makefile	/^   LIBS          = $(ROOTLIBS)$/;"	m
+LIBS	decoder/Makefile	/^   LIBS = $(EVIO_LIB) $(GLIB)$/;"	m
+LK_AHEAD	decoder/swap_util.C	/^}LK_AHEAD;         \/* find out header *\/$/;"	t	typeref:struct:_lk	file:
+MAXEVLEN	decoder/THaCodaData.h	/^#define MAXEVLEN /;"	d
+NROC	decoder/decoder.C	/^const int NROC = 15;$/;"	v
+NonCaliFineN	decoder/decoder.C	/^Double_t NonCaliFineN[9] = {0,     0.145, 0.555, 1.085, 1.615, 2.145, 2.675, 3.205, 3.735};$/;"	v
+NonCaliFineP	decoder/decoder.C	/^Double_t NonCaliFineP[9] = {0.222, 0.666, 1.110, 1.554, 1.998, 2.442, 2.886, 3.330, 3.776};$/;"	v
+ONLIBS	decoder/Makefile	/^   ONLIBS = $(LIBET) -lieee -lpthread -ldl -lresolv$/;"	m
+ONLIBS	decoder/Makefile	/^   ONLIBS = $(LIBET) -lposix4 -lnsl -lsocket -lresolv$/;"	m
+OSNAME	decoder/Makefile	/^export OSNAME := $(shell uname)$/;"	m
+PMODE	decoder/evio.C	/^#define PMODE /;"	d	file:
+ROOTCFLAGS	decoder/Makefile	/^   ROOTCFLAGS    = $(shell root-config --cflags)$/;"	m
+ROOTGLIBS	decoder/Makefile	/^   ROOTGLIBS     = $(shell root-config --glibs)$/;"	m
+ROOTLIBS	decoder/Makefile	/^   ROOTLIBS      = $(shell root-config --libs)$/;"	m
+SLIB	decoder/Makefile	/^   SLIB = -L\/opt\/SUNWspro\/SC4.2\/lib -lF77 -lM77 -lsunmath$/;"	m
+SMALL_TIMEOUT	decoder/THaEtClient.h	/^    int SMALL_TIMEOUT; $/;"	m	class:THaEtClient
+SOFLAGS	decoder/Makefile	/^   SOFLAGS       = -G$/;"	m
+SOFLAGS	decoder/Makefile	/^   SOFLAGS       = -shared$/;"	m
+SRC	decoder/Makefile	/^SRC = THaEtClient.C THaCodaFile.C THaCodaData.C$/;"	m
+STANDALONE	decoder/Makefile	/^export STANDALONE = 1$/;"	m
+S_EVFILE	decoder/evio.C	/^#define S_EVFILE /;"	d	file:
+S_EVFILE	decoder/evio.h	/^#define S_EVFILE /;"	d
+S_EVFILE_ALLOCFAIL	decoder/evio.C	/^#define S_EVFILE_ALLOCFAIL	/;"	d	file:
+S_EVFILE_ALLOCFAIL	decoder/evio.h	/^#define S_EVFILE_ALLOCFAIL /;"	d
+S_EVFILE_BADBLOCK	decoder/evio.C	/^#define S_EVFILE_BADBLOCK	/;"	d	file:
+S_EVFILE_BADBLOCK	decoder/evio.h	/^#define S_EVFILE_BADBLOCK /;"	d
+S_EVFILE_BADFILE	decoder/evio.C	/^#define S_EVFILE_BADFILE	/;"	d	file:
+S_EVFILE_BADFILE	decoder/evio.h	/^#define S_EVFILE_BADFILE /;"	d
+S_EVFILE_BADHANDLE	decoder/evio.C	/^#define S_EVFILE_BADHANDLE	/;"	d	file:
+S_EVFILE_BADHANDLE	decoder/evio.h	/^#define S_EVFILE_BADHANDLE /;"	d
+S_EVFILE_BADSIZEREQ	decoder/evio.C	/^#define S_EVFILE_BADSIZEREQ	/;"	d	file:
+S_EVFILE_BADSIZEREQ	decoder/evio.h	/^#define S_EVFILE_BADSIZEREQ /;"	d
+S_EVFILE_TRUNC	decoder/evio.C	/^#define S_EVFILE_TRUNC	/;"	d	file:
+S_EVFILE_TRUNC	decoder/evio.h	/^#define S_EVFILE_TRUNC /;"	d
+S_EVFILE_UNKOPTION	decoder/evio.C	/^#define S_EVFILE_UNKOPTION	/;"	d	file:
+S_EVFILE_UNKOPTION	decoder/evio.h	/^#define S_EVFILE_UNKOPTION /;"	d
+S_EVFILE_UNXPTDEOF	decoder/evio.C	/^#define S_EVFILE_UNXPTDEOF	/;"	d	file:
+S_EVFILE_UNXPTDEOF	decoder/evio.h	/^#define S_EVFILE_UNXPTDEOF /;"	d
+S_FAILURE	decoder/evio.C	/^#define S_FAILURE /;"	d	file:
+S_FAILURE	decoder/evio.h	/^#define  S_FAILURE /;"	d
+S_SUCCESS	decoder/evio.C	/^#define S_SUCCESS /;"	d	file:
+S_SUCCESS	decoder/evio.h	/^#define  S_SUCCESS /;"	d
+THaCodaData	decoder/THaCodaData.h	/^class THaCodaData {$/;"	c
+THaCodaData_h	decoder/THaCodaData.h	/^#define THaCodaData_h$/;"	d
+THaCodaFile	decoder/THaCodaFile.C	/^  THaCodaFile::THaCodaFile(TString fname) {$/;"	f	class:THaCodaFile
+THaCodaFile	decoder/THaCodaFile.C	/^  THaCodaFile::THaCodaFile(TString fname, TString readwrite) {$/;"	f	class:THaCodaFile
+THaCodaFile	decoder/THaCodaFile.h	/^class THaCodaFile : public THaCodaData $/;"	c
+THaCodaFile_h	decoder/THaCodaFile.h	/^#define THaCodaFile_h$/;"	d
+THaEtClient	decoder/THaEtClient.C	/^THaEtClient::THaEtClient(TString computer, TString mysession, int smode) {$/;"	f	class:THaEtClient
+THaEtClient	decoder/THaEtClient.C	/^THaEtClient::THaEtClient(TString computer,int smode) {$/;"	f	class:THaEtClient
+THaEtClient	decoder/THaEtClient.C	/^THaEtClient::THaEtClient(int smode) {      \/\/ uses default server (where CODA runs)$/;"	f	class:THaEtClient
+THaEtClient	decoder/THaEtClient.h	/^class THaEtClient : public THaCodaData $/;"	c
+THaEtClient_	decoder/THaEtClient.h	/^#define THaEtClient_$/;"	d
+_ET_H_	decoder/et.h	/^#define _ET_H_$/;"	d
+_lk	decoder/swap_util.C	/^typedef struct _lk$/;"	s	file:
+_stack	decoder/swap_util.C	/^typedef struct _stack$/;"	s	file:
+addEvListFilt	decoder/THaCodaFile.C	/^  void THaCodaFile::addEvListFilt(int event_num_to_filt)$/;"	f	class:THaCodaFile
+addEvTypeFilt	decoder/THaCodaFile.C	/^  void THaCodaFile::addEvTypeFilt(int evtype_to_filt)$/;"	f	class:THaCodaFile
+age	decoder/et.h	/^  int   age;$/;"	m	struct:et_event_t
+blank1	decoder/DslTdc.h	/^  volatile unsigned int blank1[2];       \/\/ 0x018  <->  0x01C$/;"	m	struct:dsTdc2_struct
+blank2	decoder/DslTdc.h	/^  volatile unsigned int blank2;          \/\/ 0x024$/;"	m	struct:dsTdc2_struct
+blank3	decoder/DslTdc.h	/^  volatile unsigned int blank3[8];       \/\/ 0x030  <->  0x04C$/;"	m	struct:dsTdc2_struct
+blank4	decoder/DslTdc.h	/^  volatile unsigned int blank4[2];       \/\/ 0x058  <->  0x05C$/;"	m	struct:dsTdc2_struct
+blank5	decoder/DslTdc.h	/^  volatile unsigned int blank5;          \/\/ 0x064$/;"	m	struct:dsTdc2_struct
+blknum	decoder/evio.h	/^  int blknum;$/;"	m	struct:evfilestruct
+blksiz	decoder/evio.h	/^  int blksiz;$/;"	m	struct:evfilestruct
+boardMask	decoder/decoder.C	/^#define boardMask /;"	d	file:
+buf	decoder/evio.h	/^  int *buf;$/;"	m	struct:evfilestruct
+byte_swapped	decoder/evio.h	/^  int byte_swapped;$/;"	m	struct:evfilestruct
+captureMode	decoder/DslTdc.h	/^#define captureMode /;"	d
+clr	decoder/DslTdc.h	/^  volatile unsigned int clr;             \/\/ 0x020  Clear$/;"	m	struct:dsTdc2_struct
+codaClose	decoder/THaCodaFile.C	/^  int THaCodaFile::codaClose() {$/;"	f	class:THaCodaFile
+codaClose	decoder/THaEtClient.C	/^int THaEtClient::codaClose() {$/;"	f	class:THaEtClient
+codaOpen	decoder/THaCodaData.h	/^   virtual int codaOpen(TString filename, TString session) {return CODA_OK;};$/;"	f	class:THaCodaData
+codaOpen	decoder/THaCodaData.h	/^   virtual int codaOpen(TString filename, TString session, int mode) {return CODA_OK;};$/;"	f	class:THaCodaData
+codaOpen	decoder/THaCodaFile.C	/^  int THaCodaFile::codaOpen(TString fname) {  $/;"	f	class:THaCodaFile
+codaOpen	decoder/THaCodaFile.C	/^  int THaCodaFile::codaOpen(TString fname, TString readwrite) {  $/;"	f	class:THaCodaFile
+codaOpen	decoder/THaEtClient.C	/^int THaEtClient::codaOpen(TString computer) {$/;"	f	class:THaEtClient
+codaOpen	decoder/THaEtClient.C	/^int THaEtClient::codaOpen(TString computer, TString mysession, int smode) {$/;"	f	class:THaEtClient
+codaOpen	decoder/THaEtClient.C	/^int THaEtClient::codaOpen(TString computer, int smode) {$/;"	f	class:THaEtClient
+codaRead	decoder/THaCodaFile.C	/^  int THaCodaFile::codaRead() {$/;"	f	class:THaCodaFile
+codaRead	decoder/THaEtClient.C	/^int THaEtClient::codaRead() {$/;"	f	class:THaEtClient
+codaWrite	decoder/THaCodaFile.C	/^  int THaCodaFile::codaWrite(int *evbuffer) {$/;"	f	class:THaCodaFile
+control	decoder/et.h	/^  int   control[ET_STATION_SELECT_INTS];$/;"	m	struct:et_event_t
+copySingleEvent	decoder/evio.C	/^static int copySingleEvent(EVFILE *a, int *buffer, int buflen, int ev_size)$/;"	f	file:
+csr	decoder/DslTdc.h	/^  volatile unsigned int csr;             \/\/ 0x000  Control and Status Register$/;"	m	struct:dsTdc2_struct
+csr2	decoder/DslTdc.h	/^  volatile unsigned int csr2;            \/\/ 0x00C  Control and Status Register 2$/;"	m	struct:dsTdc2_struct
+daqhost	decoder/THaEtClient.h	/^    char *daqhost,*session,*etfile;$/;"	m	class:THaEtClient
+data	decoder/DslTdc.h	/^  volatile unsigned int data[64];  \/\/ 0x100~0x1FC  128KB FIFO memory space, (32Kx32)$/;"	m	struct:dsTdc2_data
+data	decoder/et.h	/^  char *data;$/;"	m	struct:et_event_t
+datastatus	decoder/et.h	/^  int   datastatus;$/;"	m	struct:et_event_t
+didclose	decoder/THaEtClient.h	/^    int waitflag,initetfile,didclose,notopened,firstread;$/;"	m	class:THaEtClient
+dsTdc2_data	decoder/DslTdc.h	/^struct dsTdc2_data{$/;"	s
+dsTdc2_struct	decoder/DslTdc.h	/^struct dsTdc2_struct{$/;"	s
+dummy	decoder/DslTdc.h	/^  volatile unsigned int dummy[37];       \/\/ dummy$/;"	m	struct:dsTdc2_struct
+ebk	decoder/evio.C	/^  int ebk;$/;"	m	struct:evBinarySearch	file:
+eclInput1	decoder/DslTdc.h	/^#define eclInput1 /;"	d
+eclInput2	decoder/DslTdc.h	/^#define eclInput2 /;"	d
+eclOutput1	decoder/DslTdc.h	/^#define eclOutput1 /;"	d
+eclOutput2	decoder/DslTdc.h	/^#define eclOutput2 /;"	d
+eclOutput3	decoder/DslTdc.h	/^#define eclOutput3 /;"	d
+et_att_id	decoder/et.h	/^typedef int   et_att_id;$/;"	t
+et_event	decoder/et.h	/^} et_event;$/;"	t	typeref:struct:et_event_t
+et_event_t	decoder/et.h	/^typedef struct et_event_t {$/;"	s
+et_openconfig	decoder/et.h	/^typedef void *et_openconfig;$/;"	t
+et_proc_id	decoder/et.h	/^typedef int   et_proc_id;$/;"	t
+et_stat_id	decoder/et.h	/^typedef int   et_stat_id;$/;"	t
+et_statconfig	decoder/et.h	/^typedef void *et_statconfig;$/;"	t
+et_sys_id	decoder/et.h	/^typedef void *et_sys_id;$/;"	t
+et_sysconfig	decoder/et.h	/^typedef void *et_sysconfig;$/;"	t
+etfile	decoder/THaEtClient.h	/^    char *daqhost,*session,*etfile;$/;"	m	class:THaEtClient
+evBinarySearch	decoder/evio.C	/^typedef struct evBinarySearch{$/;"	s	file:
+evClose	decoder/evio.C	/^int evClose(long handle)$/;"	f
+evCloseSearch	decoder/evio.C	/^int evCloseSearch(long b_handle)$/;"	f
+evFindEventBlockNum	decoder/evio.C	/^static void evFindEventBlockNum(EVFILE *a, EVBSEARCH *b, int *bknum)$/;"	f	file:
+evFlush	decoder/evio.C	/^int evFlush(EVFILE *a)$/;"	f
+evGetEventNumber	decoder/evio.C	/^static int evGetEventNumber(EVFILE *a, int ev_size)$/;"	f	file:
+evGetEventType	decoder/evio.C	/^static int evGetEventType(EVFILE *a)$/;"	f	file:
+evGetNewBuffer	decoder/evio.C	/^int evGetNewBuffer(EVFILE *a) {$/;"	f
+evGetStructure	decoder/evio.C	/^#define evGetStructure(/;"	d	file:
+evIoctl	decoder/evio.C	/^int evIoctl(long handle,char *request,void *argp)$/;"	f
+evOpen	decoder/evio.C	/^int evOpen(char *filename,char *flags,long *handle)$/;"	f
+evOpenSearch	decoder/evio.C	/^int evOpenSearch(long handle, long *b_handle)$/;"	f
+evRead	decoder/evio.C	/^int evRead(long handle,int *buffer,int buflen)$/;"	f
+evSearch	decoder/evio.C	/^int evSearch(long handle, long b_handle, int evn, int *buffer, int buflen, int *size)$/;"	f
+evSearchWithinBlock	decoder/evio.C	/^static int evSearchWithinBlock(EVFILE *a, EVBSEARCH *b, int *bknum, $/;"	f	file:
+evStack	decoder/swap_util.C	/^}evStack;$/;"	t	typeref:struct:_stack	file:
+evStack_free	decoder/swap_util.C	/^static void evStack_free(evStack *head)$/;"	f	file:
+evStack_popoff	decoder/swap_util.C	/^static void evStack_popoff(evStack *head)$/;"	f	file:
+evStack_pushon	decoder/swap_util.C	/^static void evStack_pushon(int size,$/;"	f	file:
+evStack_top	decoder/swap_util.C	/^static evStack *evStack_top(evStack *head)$/;"	f	file:
+evWrite	decoder/evio.C	/^int evWrite(long handle,int *buffer)$/;"	f
+evbuffer	decoder/THaCodaData.h	/^   int *evbuffer;                    \/\/ Raw data     $/;"	m	class:THaCodaData
+evclose_	decoder/evio.C	/^int evclose_(long *handle)$/;"	f
+eventMask	decoder/decoder.C	/^#define eventMask /;"	d	file:
+evfilestruct	decoder/evio.h	/^typedef struct evfilestruct {$/;"	s
+evioctl_	decoder/evio.C	/^int evioctl_(long *handle,char *request,void *argp,int reqlen)$/;"	f
+evlist	decoder/THaCodaFile.h	/^  TArrayI evlist, evtypes;$/;"	m	class:THaCodaFile
+evnum	decoder/evio.h	/^  int evnum;         \/* last events with evnum so far *\/$/;"	m	struct:evfilestruct
+evopen_	decoder/evio.C	/^int evopen_(char *filename,char *flags,long *handle,int fnlen,int flen)$/;"	f
+evread_	decoder/evio.C	/^int evread_(long *handle,int *buffer,int *buflen)$/;"	f
+evtypes	decoder/THaCodaFile.h	/^  TArrayI evlist, evtypes;$/;"	m	class:THaCodaFile
+evwrite_	decoder/evio.C	/^int evwrite_(long *handle,int *buffer)$/;"	f
+ffirst	decoder/THaCodaFile.h	/^  int ffirst;$/;"	m	class:THaCodaFile
+fifoStatusMask	decoder/DslTdc.h	/^#define fifoStatusMask /;"	d
+fifoStatusMode1	decoder/DslTdc.h	/^#define fifoStatusMode1 /;"	d
+fifoStatusMode2	decoder/DslTdc.h	/^#define fifoStatusMode2 /;"	d
+fifoStatusMode3	decoder/DslTdc.h	/^#define fifoStatusMode3 /;"	d
+fifoStatusMode4	decoder/DslTdc.h	/^#define fifoStatusMode4 /;"	d
+fifoStatusModeMask	decoder/DslTdc.h	/^#define fifoStatusModeMask /;"	d
+fifoStatusReg	decoder/DslTdc.h	/^  volatile unsigned int fifoStatusReg;   \/\/ 0x008  FIFO status register$/;"	m	struct:dsTdc2_struct
+fifoTestDisable	decoder/DslTdc.h	/^  volatile unsigned int fifoTestDisable; \/\/ 0x014  FIFO test mode disable$/;"	m	struct:dsTdc2_struct
+fifoTestEnable	decoder/DslTdc.h	/^  volatile unsigned int fifoTestEnable;  \/\/ 0x010  FIFO test mode enable$/;"	m	struct:dsTdc2_struct
+fifoTestMode	decoder/DslTdc.h	/^#define fifoTestMode /;"	d
+file	decoder/evio.h	/^  FILE *file;$/;"	m	struct:evfilestruct
+filename	decoder/THaCodaData.h	/^   TString filename;$/;"	m	class:THaCodaData
+filename	decoder/et.h	/^  char  filename[ET_TEMPNAME_LENGTH];$/;"	m	struct:et_event_t
+filterToFile	decoder/THaCodaFile.C	/^  int THaCodaFile::filterToFile(TString output_file) {$/;"	f	class:THaCodaFile
+findLastEventWithinBlock	decoder/evio.C	/^static int findLastEventWithinBlock(EVFILE *a)$/;"	f	file:
+firstread	decoder/THaEtClient.h	/^    int waitflag,initetfile,didclose,notopened,firstread;$/;"	m	class:THaEtClient
+found_bk	decoder/evio.C	/^  int found_bk;$/;"	m	struct:evBinarySearch	file:
+found_evn	decoder/evio.C	/^  int found_evn;$/;"	m	struct:evBinarySearch	file:
+genOutputPulse	decoder/DslTdc.h	/^  volatile unsigned int genOutputPulse;  \/\/ 0x068  Generate output pulse$/;"	m	struct:dsTdc2_struct
+getBuffSize	decoder/THaCodaData.h	/^   virtual int getBuffSize() const { return MAXEVLEN; };$/;"	f	class:THaCodaData
+getEvBuffer	decoder/THaCodaData.h	/^   virtual int *getEvBuffer() { return evbuffer; };     $/;"	f	class:THaCodaData
+getEvBuffer	decoder/THaCodaFile.C	/^  int* THaCodaFile::getEvBuffer() {$/;"	f	class:THaCodaFile
+getEvBuffer	decoder/THaEtClient.C	/^int* THaEtClient::getEvBuffer() {$/;"	f	class:THaEtClient
+handle	decoder/THaCodaFile.h	/^  long handle;$/;"	m	class:THaCodaFile
+head_pos	decoder/swap_util.C	/^  int head_pos;$/;"	m	struct:_lk	file:
+id	decoder/DslTdc.h	/^  volatile unsigned int id;              \/\/ 0x004  PCB number and Revision date code$/;"	m	struct:dsTdc2_struct
+id	decoder/THaEtClient.h	/^    et_sys_id id;$/;"	m	class:THaEtClient
+init	decoder/THaCodaFile.C	/^  void THaCodaFile::init(TString fname) {$/;"	f	class:THaCodaFile
+init	decoder/THaEtClient.C	/^int THaEtClient::init() {$/;"	f	class:THaEtClient
+init	decoder/THaEtClient.C	/^int THaEtClient::init(TString mystation) $/;"	f	class:THaEtClient
+initFilter	decoder/THaCodaFile.C	/^  void THaCodaFile::initFilter() {$/;"	f	class:THaCodaFile
+init_evStack	decoder/swap_util.C	/^static evStack *init_evStack()$/;"	f	file:
+initetfile	decoder/THaEtClient.h	/^    int waitflag,initetfile,didclose,notopened,firstread;$/;"	m	class:THaEtClient
+initflags	decoder/THaEtClient.C	/^void THaEtClient::initflags()$/;"	f	class:THaEtClient
+int_swap_byte	decoder/swap_util.C	/^int int_swap_byte (int input) $/;"	f
+isRealEventsInsideBlock	decoder/evio.C	/^static int isRealEventsInsideBlock(EVFILE *a, int bknum, int old_left)$/;"	f	file:
+last_evn	decoder/evio.C	/^  int last_evn;$/;"	m	struct:evBinarySearch	file:
+left	decoder/evio.h	/^  int left;$/;"	m	struct:evfilestruct
+length	decoder/et.h	/^  int   length;$/;"	m	struct:et_event_t
+length	decoder/swap_util.C	/^  int length;      \/* inclusive size *\/$/;"	m	struct:_stack	file:
+magic	decoder/evio.h	/^  int magic;$/;"	m	struct:evfilestruct
+main	decoder/decoder.C	/^int main(int argc, char* argv[])$/;"	f
+max_to_filt	decoder/THaCodaFile.h	/^  int max_to_filt;$/;"	m	class:THaCodaFile
+maxflist	decoder/THaCodaFile.h	/^  int maxflist,maxftype;$/;"	m	class:THaCodaFile
+maxftype	decoder/THaCodaFile.h	/^  int maxflist,maxftype;$/;"	m	class:THaCodaFile
+memsize	decoder/et.h	/^  int   memsize;$/;"	m	struct:et_event_t
+modify	decoder/et.h	/^  int   modify;$/;"	m	struct:et_event_t
+my_att	decoder/THaEtClient.h	/^    et_att_id my_att;$/;"	m	class:THaEtClient
+my_stat	decoder/THaEtClient.h	/^    et_stat_id my_stat;$/;"	m	class:THaEtClient
+nWordsMask	decoder/decoder.C	/^#define nWordsMask /;"	d	file:
+next	decoder/et.h	/^  struct et_event_t *next;$/;"	m	struct:et_event_t	typeref:struct:et_event_t::et_event_t
+next	decoder/evio.h	/^  int *next;$/;"	m	struct:evfilestruct
+next	decoder/swap_util.C	/^  struct _stack *next;$/;"	m	struct:_stack	typeref:struct:_stack::_stack	file:
+notopened	decoder/THaEtClient.h	/^    int waitflag,initetfile,didclose,notopened,firstread;$/;"	m	class:THaEtClient
+nread	decoder/THaEtClient.h	/^    int nread, nused, timeout;$/;"	m	class:THaEtClient
+num	decoder/swap_util.C	/^  int num;         \/* num field *\/$/;"	m	struct:_stack	file:
+nused	decoder/THaEtClient.h	/^    int nread, nused, timeout;$/;"	m	class:THaEtClient
+onEdgeMode1	decoder/DslTdc.h	/^#define onEdgeMode1 /;"	d
+onEdgeMode2	decoder/DslTdc.h	/^#define onEdgeMode2 /;"	d
+onEdgeMode3	decoder/DslTdc.h	/^#define onEdgeMode3 /;"	d
+onEdgeMode4	decoder/DslTdc.h	/^#define onEdgeMode4 /;"	d
+onmemory_swap	decoder/swap_util.C	/^void onmemory_swap(int* buffer)$/;"	f
+openconfig	decoder/THaEtClient.h	/^    et_openconfig openconfig;$/;"	m	class:THaEtClient
+owner	decoder/et.h	/^  int   owner;$/;"	m	struct:et_event_t
+pdata	decoder/et.h	/^  void *pdata;$/;"	m	struct:et_event_t
+physicsEventsInsideBlock	decoder/evio.C	/^static int physicsEventsInsideBlock(EVFILE *a)$/;"	f	file:
+pointer	decoder/et.h	/^  int   pointer;$/;"	m	struct:et_event_t
+posi	decoder/swap_util.C	/^  int posi;        \/* event start position *\/$/;"	m	struct:_stack	file:
+priority	decoder/et.h	/^  int   priority;$/;"	m	struct:et_event_t
+reserved1	decoder/DslTdc.h	/^  volatile unsigned int reserved1;       \/\/ 0x050  Reserved$/;"	m	struct:dsTdc2_struct
+reserved1	decoder/DslTdc.h	/^#define reserved1 /;"	d
+reserved2	decoder/DslTdc.h	/^  volatile unsigned int reserved2;       \/\/ 0x054  Reserved$/;"	m	struct:dsTdc2_struct
+reserved2	decoder/DslTdc.h	/^#define reserved2 /;"	d
+reserved3	decoder/DslTdc.h	/^#define reserved3 /;"	d
+reserved4	decoder/DslTdc.h	/^#define reserved4 /;"	d
+reserved5	decoder/DslTdc.h	/^#define reserved5 /;"	d
+reset	decoder/DslTdc.h	/^  volatile unsigned int reset;           \/\/ 0x060  Reset$/;"	m	struct:dsTdc2_struct
+rocMask	decoder/decoder.C	/^#define rocMask /;"	d	file:
+rw	decoder/evio.h	/^  int rw;$/;"	m	struct:evfilestruct
+sbk	decoder/evio.C	/^  int sbk;$/;"	m	struct:evBinarySearch	file:
+sconfig	decoder/THaEtClient.h	/^    et_statconfig sconfig;$/;"	m	class:THaEtClient
+session	decoder/THaEtClient.h	/^    char *daqhost,*session,*etfile;$/;"	m	class:THaEtClient
+setMaxEvFilt	decoder/THaCodaFile.C	/^  void THaCodaFile::setMaxEvFilt(int max_event)$/;"	f	class:THaCodaFile
+staterr	decoder/THaCodaFile.C	/^void THaCodaFile::staterr(TString tried_to, int status) {$/;"	f	class:THaCodaFile
+std	decoder/decoder.C	/^using namespace std;$/;"	v
+swapped_fread	decoder/swap_util.C	/^int swapped_fread(int *ptr,int size,int n_items,FILE *stream)$/;"	f
+swapped_intcpy	decoder/swap_util.C	/^void swapped_intcpy(int *des,char *source,int size)$/;"	f
+swapped_longcpy	decoder/swap_util.C	/^void swapped_longcpy(double *des,char *source,int size)$/;"	f
+swapped_memcpy	decoder/swap_util.C	/^void swapped_memcpy(char *buffer,char *source,int size)$/;"	f
+swapped_shortcpy	decoder/swap_util.C	/^void swapped_shortcpy (short *des,char *source,int size)$/;"	f
+tag	decoder/swap_util.C	/^  int tag;         \/* tag value *\/$/;"	m	struct:_stack	file:
+temp	decoder/et.h	/^  int   temp;$/;"	m	struct:et_event_t
+timeout	decoder/THaEtClient.h	/^    int nread, nused, timeout;$/;"	m	class:THaEtClient
+trigDisable	decoder/DslTdc.h	/^  volatile unsigned int trigDisable;     \/\/ 0x02C  Dstdc mode disable (trigger disable)$/;"	m	struct:dsTdc2_struct
+trigEnable	decoder/DslTdc.h	/^  volatile unsigned int trigEnable;      \/\/ 0x028  Dstdc mode enable  (trigger enable)$/;"	m	struct:dsTdc2_struct
+type	decoder/swap_util.C	/^  int type;        \/* data type *\/$/;"	m	struct:_stack	file:
+type	decoder/swap_util.C	/^  int type;$/;"	m	struct:_lk	file:
+userLED	decoder/DslTdc.h	/^#define userLED /;"	d
+waitflag	decoder/THaEtClient.h	/^    int waitflag,initetfile,didclose,notopened,firstread;$/;"	m	class:THaEtClient
+~THaCodaData	decoder/THaCodaData.C	/^THaCodaData::~THaCodaData() { $/;"	f	class:THaCodaData
+~THaCodaFile	decoder/THaCodaFile.C	/^  THaCodaFile::~THaCodaFile () {$/;"	f	class:THaCodaFile
+~THaEtClient	decoder/THaEtClient.C	/^THaEtClient::~THaEtClient() {$/;"	f	class:THaEtClient

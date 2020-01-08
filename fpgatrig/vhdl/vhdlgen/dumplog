@@ -1,0 +1,1143 @@
+reading mapping for 460mapping.txt
+reading roadset for roads_plus_top.txt
+reading roadset for roads_minus_top.txt
+hit module
+		if(PF_temp_lv1_00(   0)='1' OR PF_temp_lv1_00(   1)='1' )then
+
+hit module
+		if(PF_temp_lv1_01(   0)='1' OR PF_temp_lv1_01(   1)='1' OR PF_temp_lv1_01(   2)='1' OR PF_temp_lv1_01(   3)='1' )then
+
+hit module
+		if(PF_temp_lv1_02(   0)='1' OR PF_temp_lv1_02(   1)='1' OR PF_temp_lv1_02(   2)='1' OR PF_temp_lv1_02(   3)='1' )then
+
+hit module
+		if(PF_temp_lv1_02(   4)='1' OR PF_temp_lv1_02(   5)='1' OR PF_temp_lv1_02(   6)='1' OR PF_temp_lv1_02(   7)='1' )then
+
+hit module
+		if(PF_temp_lv1_02(   8)='1' OR PF_temp_lv1_02(   9)='1' OR PF_temp_lv1_02(  10)='1' OR PF_temp_lv1_02(  11)='1' )then
+
+hit module
+		if(PF_temp_lv1_02(  12)='1' OR PF_temp_lv1_02(  13)='1' OR PF_temp_lv1_02(  14)='1' OR PF_temp_lv1_02(  15)='1' )then
+
+hit module
+		if(PF_temp_lv1_02(  16)='1' OR PF_temp_lv1_02(  17)='1' OR PF_temp_lv1_02(  18)='1' OR PF_temp_lv1_02(  19)='1' )then
+
+hit module
+		if(PF_temp_lv1_02(  20)='1' OR PF_temp_lv1_02(  21)='1' OR PF_temp_lv1_02(  22)='1' OR PF_temp_lv1_02(  23)='1' )then
+
+hit module
+		if(PF_temp_lv1_02(  24)='1' OR PF_temp_lv1_02(  25)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(   0)='1' OR PF_temp_lv1_03(   1)='1' OR PF_temp_lv1_03(   2)='1' OR PF_temp_lv1_03(   3)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(   4)='1' OR PF_temp_lv1_03(   5)='1' OR PF_temp_lv1_03(   6)='1' OR PF_temp_lv1_03(   7)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(   8)='1' OR PF_temp_lv1_03(   9)='1' OR PF_temp_lv1_03(  10)='1' OR PF_temp_lv1_03(  11)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(  12)='1' OR PF_temp_lv1_03(  13)='1' OR PF_temp_lv1_03(  14)='1' OR PF_temp_lv1_03(  15)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(  16)='1' OR PF_temp_lv1_03(  17)='1' OR PF_temp_lv1_03(  18)='1' OR PF_temp_lv1_03(  19)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(  20)='1' OR PF_temp_lv1_03(  21)='1' OR PF_temp_lv1_03(  22)='1' OR PF_temp_lv1_03(  23)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(  24)='1' OR PF_temp_lv1_03(  25)='1' OR PF_temp_lv1_03(  26)='1' OR PF_temp_lv1_03(  27)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(  28)='1' OR PF_temp_lv1_03(  29)='1' OR PF_temp_lv1_03(  30)='1' OR PF_temp_lv1_03(  31)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(  32)='1' OR PF_temp_lv1_03(  33)='1' OR PF_temp_lv1_03(  34)='1' OR PF_temp_lv1_03(  35)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(  36)='1' OR PF_temp_lv1_03(  37)='1' OR PF_temp_lv1_03(  38)='1' OR PF_temp_lv1_03(  39)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(  40)='1' OR PF_temp_lv1_03(  41)='1' OR PF_temp_lv1_03(  42)='1' OR PF_temp_lv1_03(  43)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(  44)='1' OR PF_temp_lv1_03(  45)='1' OR PF_temp_lv1_03(  46)='1' OR PF_temp_lv1_03(  47)='1' )then
+
+hit module
+		if(PF_temp_lv1_03(  48)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(   0)='1' OR PF_temp_lv1_04(   1)='1' OR PF_temp_lv1_04(   2)='1' OR PF_temp_lv1_04(   3)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(   4)='1' OR PF_temp_lv1_04(   5)='1' OR PF_temp_lv1_04(   6)='1' OR PF_temp_lv1_04(   7)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(   8)='1' OR PF_temp_lv1_04(   9)='1' OR PF_temp_lv1_04(  10)='1' OR PF_temp_lv1_04(  11)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  12)='1' OR PF_temp_lv1_04(  13)='1' OR PF_temp_lv1_04(  14)='1' OR PF_temp_lv1_04(  15)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  16)='1' OR PF_temp_lv1_04(  17)='1' OR PF_temp_lv1_04(  18)='1' OR PF_temp_lv1_04(  19)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  20)='1' OR PF_temp_lv1_04(  21)='1' OR PF_temp_lv1_04(  22)='1' OR PF_temp_lv1_04(  23)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  24)='1' OR PF_temp_lv1_04(  25)='1' OR PF_temp_lv1_04(  26)='1' OR PF_temp_lv1_04(  27)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  28)='1' OR PF_temp_lv1_04(  29)='1' OR PF_temp_lv1_04(  30)='1' OR PF_temp_lv1_04(  31)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  32)='1' OR PF_temp_lv1_04(  33)='1' OR PF_temp_lv1_04(  34)='1' OR PF_temp_lv1_04(  35)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  36)='1' OR PF_temp_lv1_04(  37)='1' OR PF_temp_lv1_04(  38)='1' OR PF_temp_lv1_04(  39)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  40)='1' OR PF_temp_lv1_04(  41)='1' OR PF_temp_lv1_04(  42)='1' OR PF_temp_lv1_04(  43)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  44)='1' OR PF_temp_lv1_04(  45)='1' OR PF_temp_lv1_04(  46)='1' OR PF_temp_lv1_04(  47)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  48)='1' OR PF_temp_lv1_04(  49)='1' OR PF_temp_lv1_04(  50)='1' OR PF_temp_lv1_04(  51)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  52)='1' OR PF_temp_lv1_04(  53)='1' OR PF_temp_lv1_04(  54)='1' OR PF_temp_lv1_04(  55)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  56)='1' OR PF_temp_lv1_04(  57)='1' OR PF_temp_lv1_04(  58)='1' OR PF_temp_lv1_04(  59)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  60)='1' OR PF_temp_lv1_04(  61)='1' OR PF_temp_lv1_04(  62)='1' OR PF_temp_lv1_04(  63)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  64)='1' OR PF_temp_lv1_04(  65)='1' OR PF_temp_lv1_04(  66)='1' OR PF_temp_lv1_04(  67)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  68)='1' OR PF_temp_lv1_04(  69)='1' OR PF_temp_lv1_04(  70)='1' OR PF_temp_lv1_04(  71)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  72)='1' OR PF_temp_lv1_04(  73)='1' OR PF_temp_lv1_04(  74)='1' OR PF_temp_lv1_04(  75)='1' )then
+
+hit module
+		if(PF_temp_lv1_04(  76)='1' OR PF_temp_lv1_04(  77)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(   0)='1' OR PF_temp_lv1_05(   1)='1' OR PF_temp_lv1_05(   2)='1' OR PF_temp_lv1_05(   3)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(   4)='1' OR PF_temp_lv1_05(   5)='1' OR PF_temp_lv1_05(   6)='1' OR PF_temp_lv1_05(   7)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(   8)='1' OR PF_temp_lv1_05(   9)='1' OR PF_temp_lv1_05(  10)='1' OR PF_temp_lv1_05(  11)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  12)='1' OR PF_temp_lv1_05(  13)='1' OR PF_temp_lv1_05(  14)='1' OR PF_temp_lv1_05(  15)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  16)='1' OR PF_temp_lv1_05(  17)='1' OR PF_temp_lv1_05(  18)='1' OR PF_temp_lv1_05(  19)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  20)='1' OR PF_temp_lv1_05(  21)='1' OR PF_temp_lv1_05(  22)='1' OR PF_temp_lv1_05(  23)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  24)='1' OR PF_temp_lv1_05(  25)='1' OR PF_temp_lv1_05(  26)='1' OR PF_temp_lv1_05(  27)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  28)='1' OR PF_temp_lv1_05(  29)='1' OR PF_temp_lv1_05(  30)='1' OR PF_temp_lv1_05(  31)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  32)='1' OR PF_temp_lv1_05(  33)='1' OR PF_temp_lv1_05(  34)='1' OR PF_temp_lv1_05(  35)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  36)='1' OR PF_temp_lv1_05(  37)='1' OR PF_temp_lv1_05(  38)='1' OR PF_temp_lv1_05(  39)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  40)='1' OR PF_temp_lv1_05(  41)='1' OR PF_temp_lv1_05(  42)='1' OR PF_temp_lv1_05(  43)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  44)='1' OR PF_temp_lv1_05(  45)='1' OR PF_temp_lv1_05(  46)='1' OR PF_temp_lv1_05(  47)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  48)='1' OR PF_temp_lv1_05(  49)='1' OR PF_temp_lv1_05(  50)='1' OR PF_temp_lv1_05(  51)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  52)='1' OR PF_temp_lv1_05(  53)='1' OR PF_temp_lv1_05(  54)='1' OR PF_temp_lv1_05(  55)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  56)='1' OR PF_temp_lv1_05(  57)='1' OR PF_temp_lv1_05(  58)='1' OR PF_temp_lv1_05(  59)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  60)='1' OR PF_temp_lv1_05(  61)='1' OR PF_temp_lv1_05(  62)='1' OR PF_temp_lv1_05(  63)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  64)='1' OR PF_temp_lv1_05(  65)='1' OR PF_temp_lv1_05(  66)='1' OR PF_temp_lv1_05(  67)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  68)='1' OR PF_temp_lv1_05(  69)='1' OR PF_temp_lv1_05(  70)='1' OR PF_temp_lv1_05(  71)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  72)='1' OR PF_temp_lv1_05(  73)='1' OR PF_temp_lv1_05(  74)='1' OR PF_temp_lv1_05(  75)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  76)='1' OR PF_temp_lv1_05(  77)='1' OR PF_temp_lv1_05(  78)='1' OR PF_temp_lv1_05(  79)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  80)='1' OR PF_temp_lv1_05(  81)='1' OR PF_temp_lv1_05(  82)='1' OR PF_temp_lv1_05(  83)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  84)='1' OR PF_temp_lv1_05(  85)='1' OR PF_temp_lv1_05(  86)='1' OR PF_temp_lv1_05(  87)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  88)='1' OR PF_temp_lv1_05(  89)='1' OR PF_temp_lv1_05(  90)='1' OR PF_temp_lv1_05(  91)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  92)='1' OR PF_temp_lv1_05(  93)='1' OR PF_temp_lv1_05(  94)='1' OR PF_temp_lv1_05(  95)='1' )then
+
+hit module
+		if(PF_temp_lv1_05(  96)='1' OR PF_temp_lv1_05(  97)='1' OR PF_temp_lv1_05(  98)='1' OR PF_temp_lv1_05(  99)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(   0)='1' OR PF_temp_lv1_06(   1)='1' OR PF_temp_lv1_06(   2)='1' OR PF_temp_lv1_06(   3)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(   4)='1' OR PF_temp_lv1_06(   5)='1' OR PF_temp_lv1_06(   6)='1' OR PF_temp_lv1_06(   7)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(   8)='1' OR PF_temp_lv1_06(   9)='1' OR PF_temp_lv1_06(  10)='1' OR PF_temp_lv1_06(  11)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  12)='1' OR PF_temp_lv1_06(  13)='1' OR PF_temp_lv1_06(  14)='1' OR PF_temp_lv1_06(  15)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  16)='1' OR PF_temp_lv1_06(  17)='1' OR PF_temp_lv1_06(  18)='1' OR PF_temp_lv1_06(  19)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  20)='1' OR PF_temp_lv1_06(  21)='1' OR PF_temp_lv1_06(  22)='1' OR PF_temp_lv1_06(  23)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  24)='1' OR PF_temp_lv1_06(  25)='1' OR PF_temp_lv1_06(  26)='1' OR PF_temp_lv1_06(  27)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  28)='1' OR PF_temp_lv1_06(  29)='1' OR PF_temp_lv1_06(  30)='1' OR PF_temp_lv1_06(  31)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  32)='1' OR PF_temp_lv1_06(  33)='1' OR PF_temp_lv1_06(  34)='1' OR PF_temp_lv1_06(  35)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  36)='1' OR PF_temp_lv1_06(  37)='1' OR PF_temp_lv1_06(  38)='1' OR PF_temp_lv1_06(  39)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  40)='1' OR PF_temp_lv1_06(  41)='1' OR PF_temp_lv1_06(  42)='1' OR PF_temp_lv1_06(  43)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  44)='1' OR PF_temp_lv1_06(  45)='1' OR PF_temp_lv1_06(  46)='1' OR PF_temp_lv1_06(  47)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  48)='1' OR PF_temp_lv1_06(  49)='1' OR PF_temp_lv1_06(  50)='1' OR PF_temp_lv1_06(  51)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  52)='1' OR PF_temp_lv1_06(  53)='1' OR PF_temp_lv1_06(  54)='1' OR PF_temp_lv1_06(  55)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  56)='1' OR PF_temp_lv1_06(  57)='1' OR PF_temp_lv1_06(  58)='1' OR PF_temp_lv1_06(  59)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  60)='1' OR PF_temp_lv1_06(  61)='1' OR PF_temp_lv1_06(  62)='1' OR PF_temp_lv1_06(  63)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  64)='1' OR PF_temp_lv1_06(  65)='1' OR PF_temp_lv1_06(  66)='1' OR PF_temp_lv1_06(  67)='1' )then
+
+hit module
+		if(PF_temp_lv1_06(  68)='1' OR PF_temp_lv1_06(  69)='1' )then
+
+hit module
+		if(PF_temp_lv1_07(   0)='1' OR PF_temp_lv1_07(   1)='1' OR PF_temp_lv1_07(   2)='1' OR PF_temp_lv1_07(   3)='1' )then
+
+hit module
+		if(PF_temp_lv1_07(   4)='1' OR PF_temp_lv1_07(   5)='1' OR PF_temp_lv1_07(   6)='1' OR PF_temp_lv1_07(   7)='1' )then
+
+hit module
+		if(PF_temp_lv1_07(   8)='1' OR PF_temp_lv1_07(   9)='1' OR PF_temp_lv1_07(  10)='1' OR PF_temp_lv1_07(  11)='1' )then
+
+hit module
+		if(PF_temp_lv1_07(  12)='1' OR PF_temp_lv1_07(  13)='1' OR PF_temp_lv1_07(  14)='1' OR PF_temp_lv1_07(  15)='1' )then
+
+hit module
+		if(PF_temp_lv1_07(  16)='1' OR PF_temp_lv1_07(  17)='1' OR PF_temp_lv1_07(  18)='1' OR PF_temp_lv1_07(  19)='1' )then
+
+hit module
+		if(PF_temp_lv1_07(  20)='1' OR PF_temp_lv1_07(  21)='1' OR PF_temp_lv1_07(  22)='1' OR PF_temp_lv1_07(  23)='1' )then
+
+hit module
+		if(PF_temp_lv1_07(  24)='1' OR PF_temp_lv1_07(  25)='1' OR PF_temp_lv1_07(  26)='1' OR PF_temp_lv1_07(  27)='1' )then
+
+hit module
+		if(PF_temp_lv1_07(  28)='1' OR PF_temp_lv1_07(  29)='1' OR PF_temp_lv1_07(  30)='1' )then
+
+hit module
+		if(PF_temp_lv1_08(   0)='1' OR PF_temp_lv1_08(   1)='1' )then
+
+hit module
+		if(PF_temp_lv1_09(   0)='1' )then
+
+hit module
+		if(PF_temp_lv1_10(   0)='1' )then
+
+hit module
+		if(PF_temp_lv1_11(   0)='1' )then
+
+hit module
+		if(NF_temp_lv1_00(   0)='1' OR NF_temp_lv1_00(   1)='1' OR NF_temp_lv1_00(   2)='1' )then
+
+hit module
+		if(NF_temp_lv1_01(   0)='1' OR NF_temp_lv1_01(   1)='1' OR NF_temp_lv1_01(   2)='1' OR NF_temp_lv1_01(   3)='1' )then
+
+hit module
+		if(NF_temp_lv1_01(   4)='1' OR NF_temp_lv1_01(   5)='1' OR NF_temp_lv1_01(   6)='1' OR NF_temp_lv1_01(   7)='1' )then
+
+hit module
+		if(NF_temp_lv1_01(   8)='1' )then
+
+hit module
+		if(NF_temp_lv1_02(   0)='1' OR NF_temp_lv1_02(   1)='1' OR NF_temp_lv1_02(   2)='1' OR NF_temp_lv1_02(   3)='1' )then
+
+hit module
+		if(NF_temp_lv1_02(   4)='1' OR NF_temp_lv1_02(   5)='1' OR NF_temp_lv1_02(   6)='1' OR NF_temp_lv1_02(   7)='1' )then
+
+hit module
+		if(NF_temp_lv1_02(   8)='1' OR NF_temp_lv1_02(   9)='1' OR NF_temp_lv1_02(  10)='1' OR NF_temp_lv1_02(  11)='1' )then
+
+hit module
+		if(NF_temp_lv1_02(  12)='1' OR NF_temp_lv1_02(  13)='1' OR NF_temp_lv1_02(  14)='1' OR NF_temp_lv1_02(  15)='1' )then
+
+hit module
+		if(NF_temp_lv1_02(  16)='1' OR NF_temp_lv1_02(  17)='1' OR NF_temp_lv1_02(  18)='1' OR NF_temp_lv1_02(  19)='1' )then
+
+hit module
+		if(NF_temp_lv1_02(  20)='1' OR NF_temp_lv1_02(  21)='1' OR NF_temp_lv1_02(  22)='1' OR NF_temp_lv1_02(  23)='1' )then
+
+hit module
+		if(NF_temp_lv1_02(  24)='1' OR NF_temp_lv1_02(  25)='1' OR NF_temp_lv1_02(  26)='1' OR NF_temp_lv1_02(  27)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(   0)='1' OR NF_temp_lv1_03(   1)='1' OR NF_temp_lv1_03(   2)='1' OR NF_temp_lv1_03(   3)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(   4)='1' OR NF_temp_lv1_03(   5)='1' OR NF_temp_lv1_03(   6)='1' OR NF_temp_lv1_03(   7)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(   8)='1' OR NF_temp_lv1_03(   9)='1' OR NF_temp_lv1_03(  10)='1' OR NF_temp_lv1_03(  11)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(  12)='1' OR NF_temp_lv1_03(  13)='1' OR NF_temp_lv1_03(  14)='1' OR NF_temp_lv1_03(  15)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(  16)='1' OR NF_temp_lv1_03(  17)='1' OR NF_temp_lv1_03(  18)='1' OR NF_temp_lv1_03(  19)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(  20)='1' OR NF_temp_lv1_03(  21)='1' OR NF_temp_lv1_03(  22)='1' OR NF_temp_lv1_03(  23)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(  24)='1' OR NF_temp_lv1_03(  25)='1' OR NF_temp_lv1_03(  26)='1' OR NF_temp_lv1_03(  27)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(  28)='1' OR NF_temp_lv1_03(  29)='1' OR NF_temp_lv1_03(  30)='1' OR NF_temp_lv1_03(  31)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(  32)='1' OR NF_temp_lv1_03(  33)='1' OR NF_temp_lv1_03(  34)='1' OR NF_temp_lv1_03(  35)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(  36)='1' OR NF_temp_lv1_03(  37)='1' OR NF_temp_lv1_03(  38)='1' OR NF_temp_lv1_03(  39)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(  40)='1' OR NF_temp_lv1_03(  41)='1' OR NF_temp_lv1_03(  42)='1' OR NF_temp_lv1_03(  43)='1' )then
+
+hit module
+		if(NF_temp_lv1_03(  44)='1' OR NF_temp_lv1_03(  45)='1' OR NF_temp_lv1_03(  46)='1' OR NF_temp_lv1_03(  47)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(   0)='1' OR NF_temp_lv1_04(   1)='1' OR NF_temp_lv1_04(   2)='1' OR NF_temp_lv1_04(   3)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(   4)='1' OR NF_temp_lv1_04(   5)='1' OR NF_temp_lv1_04(   6)='1' OR NF_temp_lv1_04(   7)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(   8)='1' OR NF_temp_lv1_04(   9)='1' OR NF_temp_lv1_04(  10)='1' OR NF_temp_lv1_04(  11)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  12)='1' OR NF_temp_lv1_04(  13)='1' OR NF_temp_lv1_04(  14)='1' OR NF_temp_lv1_04(  15)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  16)='1' OR NF_temp_lv1_04(  17)='1' OR NF_temp_lv1_04(  18)='1' OR NF_temp_lv1_04(  19)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  20)='1' OR NF_temp_lv1_04(  21)='1' OR NF_temp_lv1_04(  22)='1' OR NF_temp_lv1_04(  23)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  24)='1' OR NF_temp_lv1_04(  25)='1' OR NF_temp_lv1_04(  26)='1' OR NF_temp_lv1_04(  27)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  28)='1' OR NF_temp_lv1_04(  29)='1' OR NF_temp_lv1_04(  30)='1' OR NF_temp_lv1_04(  31)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  32)='1' OR NF_temp_lv1_04(  33)='1' OR NF_temp_lv1_04(  34)='1' OR NF_temp_lv1_04(  35)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  36)='1' OR NF_temp_lv1_04(  37)='1' OR NF_temp_lv1_04(  38)='1' OR NF_temp_lv1_04(  39)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  40)='1' OR NF_temp_lv1_04(  41)='1' OR NF_temp_lv1_04(  42)='1' OR NF_temp_lv1_04(  43)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  44)='1' OR NF_temp_lv1_04(  45)='1' OR NF_temp_lv1_04(  46)='1' OR NF_temp_lv1_04(  47)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  48)='1' OR NF_temp_lv1_04(  49)='1' OR NF_temp_lv1_04(  50)='1' OR NF_temp_lv1_04(  51)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  52)='1' OR NF_temp_lv1_04(  53)='1' OR NF_temp_lv1_04(  54)='1' OR NF_temp_lv1_04(  55)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  56)='1' OR NF_temp_lv1_04(  57)='1' OR NF_temp_lv1_04(  58)='1' OR NF_temp_lv1_04(  59)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  60)='1' OR NF_temp_lv1_04(  61)='1' OR NF_temp_lv1_04(  62)='1' OR NF_temp_lv1_04(  63)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  64)='1' OR NF_temp_lv1_04(  65)='1' OR NF_temp_lv1_04(  66)='1' OR NF_temp_lv1_04(  67)='1' )then
+
+hit module
+		if(NF_temp_lv1_04(  68)='1' OR NF_temp_lv1_04(  69)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(   0)='1' OR NF_temp_lv1_05(   1)='1' OR NF_temp_lv1_05(   2)='1' OR NF_temp_lv1_05(   3)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(   4)='1' OR NF_temp_lv1_05(   5)='1' OR NF_temp_lv1_05(   6)='1' OR NF_temp_lv1_05(   7)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(   8)='1' OR NF_temp_lv1_05(   9)='1' OR NF_temp_lv1_05(  10)='1' OR NF_temp_lv1_05(  11)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  12)='1' OR NF_temp_lv1_05(  13)='1' OR NF_temp_lv1_05(  14)='1' OR NF_temp_lv1_05(  15)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  16)='1' OR NF_temp_lv1_05(  17)='1' OR NF_temp_lv1_05(  18)='1' OR NF_temp_lv1_05(  19)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  20)='1' OR NF_temp_lv1_05(  21)='1' OR NF_temp_lv1_05(  22)='1' OR NF_temp_lv1_05(  23)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  24)='1' OR NF_temp_lv1_05(  25)='1' OR NF_temp_lv1_05(  26)='1' OR NF_temp_lv1_05(  27)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  28)='1' OR NF_temp_lv1_05(  29)='1' OR NF_temp_lv1_05(  30)='1' OR NF_temp_lv1_05(  31)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  32)='1' OR NF_temp_lv1_05(  33)='1' OR NF_temp_lv1_05(  34)='1' OR NF_temp_lv1_05(  35)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  36)='1' OR NF_temp_lv1_05(  37)='1' OR NF_temp_lv1_05(  38)='1' OR NF_temp_lv1_05(  39)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  40)='1' OR NF_temp_lv1_05(  41)='1' OR NF_temp_lv1_05(  42)='1' OR NF_temp_lv1_05(  43)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  44)='1' OR NF_temp_lv1_05(  45)='1' OR NF_temp_lv1_05(  46)='1' OR NF_temp_lv1_05(  47)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  48)='1' OR NF_temp_lv1_05(  49)='1' OR NF_temp_lv1_05(  50)='1' OR NF_temp_lv1_05(  51)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  52)='1' OR NF_temp_lv1_05(  53)='1' OR NF_temp_lv1_05(  54)='1' OR NF_temp_lv1_05(  55)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  56)='1' OR NF_temp_lv1_05(  57)='1' OR NF_temp_lv1_05(  58)='1' OR NF_temp_lv1_05(  59)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  60)='1' OR NF_temp_lv1_05(  61)='1' OR NF_temp_lv1_05(  62)='1' OR NF_temp_lv1_05(  63)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  64)='1' OR NF_temp_lv1_05(  65)='1' OR NF_temp_lv1_05(  66)='1' OR NF_temp_lv1_05(  67)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  68)='1' OR NF_temp_lv1_05(  69)='1' OR NF_temp_lv1_05(  70)='1' OR NF_temp_lv1_05(  71)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  72)='1' OR NF_temp_lv1_05(  73)='1' OR NF_temp_lv1_05(  74)='1' OR NF_temp_lv1_05(  75)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  76)='1' OR NF_temp_lv1_05(  77)='1' OR NF_temp_lv1_05(  78)='1' OR NF_temp_lv1_05(  79)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  80)='1' OR NF_temp_lv1_05(  81)='1' OR NF_temp_lv1_05(  82)='1' OR NF_temp_lv1_05(  83)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  84)='1' OR NF_temp_lv1_05(  85)='1' OR NF_temp_lv1_05(  86)='1' OR NF_temp_lv1_05(  87)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  88)='1' OR NF_temp_lv1_05(  89)='1' OR NF_temp_lv1_05(  90)='1' OR NF_temp_lv1_05(  91)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  92)='1' OR NF_temp_lv1_05(  93)='1' OR NF_temp_lv1_05(  94)='1' OR NF_temp_lv1_05(  95)='1' )then
+
+hit module
+		if(NF_temp_lv1_05(  96)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(   0)='1' OR NF_temp_lv1_06(   1)='1' OR NF_temp_lv1_06(   2)='1' OR NF_temp_lv1_06(   3)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(   4)='1' OR NF_temp_lv1_06(   5)='1' OR NF_temp_lv1_06(   6)='1' OR NF_temp_lv1_06(   7)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(   8)='1' OR NF_temp_lv1_06(   9)='1' OR NF_temp_lv1_06(  10)='1' OR NF_temp_lv1_06(  11)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  12)='1' OR NF_temp_lv1_06(  13)='1' OR NF_temp_lv1_06(  14)='1' OR NF_temp_lv1_06(  15)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  16)='1' OR NF_temp_lv1_06(  17)='1' OR NF_temp_lv1_06(  18)='1' OR NF_temp_lv1_06(  19)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  20)='1' OR NF_temp_lv1_06(  21)='1' OR NF_temp_lv1_06(  22)='1' OR NF_temp_lv1_06(  23)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  24)='1' OR NF_temp_lv1_06(  25)='1' OR NF_temp_lv1_06(  26)='1' OR NF_temp_lv1_06(  27)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  28)='1' OR NF_temp_lv1_06(  29)='1' OR NF_temp_lv1_06(  30)='1' OR NF_temp_lv1_06(  31)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  32)='1' OR NF_temp_lv1_06(  33)='1' OR NF_temp_lv1_06(  34)='1' OR NF_temp_lv1_06(  35)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  36)='1' OR NF_temp_lv1_06(  37)='1' OR NF_temp_lv1_06(  38)='1' OR NF_temp_lv1_06(  39)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  40)='1' OR NF_temp_lv1_06(  41)='1' OR NF_temp_lv1_06(  42)='1' OR NF_temp_lv1_06(  43)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  44)='1' OR NF_temp_lv1_06(  45)='1' OR NF_temp_lv1_06(  46)='1' OR NF_temp_lv1_06(  47)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  48)='1' OR NF_temp_lv1_06(  49)='1' OR NF_temp_lv1_06(  50)='1' OR NF_temp_lv1_06(  51)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  52)='1' OR NF_temp_lv1_06(  53)='1' OR NF_temp_lv1_06(  54)='1' OR NF_temp_lv1_06(  55)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  56)='1' OR NF_temp_lv1_06(  57)='1' OR NF_temp_lv1_06(  58)='1' OR NF_temp_lv1_06(  59)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  60)='1' OR NF_temp_lv1_06(  61)='1' OR NF_temp_lv1_06(  62)='1' OR NF_temp_lv1_06(  63)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  64)='1' OR NF_temp_lv1_06(  65)='1' OR NF_temp_lv1_06(  66)='1' OR NF_temp_lv1_06(  67)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  68)='1' OR NF_temp_lv1_06(  69)='1' OR NF_temp_lv1_06(  70)='1' OR NF_temp_lv1_06(  71)='1' )then
+
+hit module
+		if(NF_temp_lv1_06(  72)='1' )then
+
+hit module
+		if(NF_temp_lv1_07(   0)='1' OR NF_temp_lv1_07(   1)='1' OR NF_temp_lv1_07(   2)='1' OR NF_temp_lv1_07(   3)='1' )then
+
+hit module
+		if(NF_temp_lv1_07(   4)='1' OR NF_temp_lv1_07(   5)='1' OR NF_temp_lv1_07(   6)='1' OR NF_temp_lv1_07(   7)='1' )then
+
+hit module
+		if(NF_temp_lv1_07(   8)='1' OR NF_temp_lv1_07(   9)='1' OR NF_temp_lv1_07(  10)='1' OR NF_temp_lv1_07(  11)='1' )then
+
+hit module
+		if(NF_temp_lv1_07(  12)='1' OR NF_temp_lv1_07(  13)='1' OR NF_temp_lv1_07(  14)='1' OR NF_temp_lv1_07(  15)='1' )then
+
+hit module
+		if(NF_temp_lv1_07(  16)='1' OR NF_temp_lv1_07(  17)='1' OR NF_temp_lv1_07(  18)='1' OR NF_temp_lv1_07(  19)='1' )then
+
+hit module
+		if(NF_temp_lv1_07(  20)='1' OR NF_temp_lv1_07(  21)='1' OR NF_temp_lv1_07(  22)='1' OR NF_temp_lv1_07(  23)='1' )then
+
+hit module
+		if(NF_temp_lv1_07(  24)='1' OR NF_temp_lv1_07(  25)='1' OR NF_temp_lv1_07(  26)='1' )then
+
+hit module
+		if(NF_temp_lv1_08(   0)='1' OR NF_temp_lv1_08(   1)='1' OR NF_temp_lv1_08(   2)='1' )then
+
+hit module
+		if(NF_temp_lv1_09(   0)='1' )then
+
+hit module
+		if(NF_temp_lv1_10(   0)='1' )then
+
+hit module
+		if(NF_temp_lv1_11(   0)='1' )then
+
+hit module
+		if(PF_temp_lv2_00(   0)='1' )then
+
+hit module
+		if(PF_temp_lv2_01(   0)='1' )then
+
+hit module
+		if(PF_temp_lv2_02(   0)='1' OR PF_temp_lv2_02(   1)='1' OR PF_temp_lv2_02(   2)='1' OR PF_temp_lv2_02(   3)='1' )then
+
+hit module
+		if(PF_temp_lv2_02(   4)='1' OR PF_temp_lv2_02(   5)='1' OR PF_temp_lv2_02(   6)='1' )then
+
+hit module
+		if(PF_temp_lv2_03(   0)='1' OR PF_temp_lv2_03(   1)='1' OR PF_temp_lv2_03(   2)='1' OR PF_temp_lv2_03(   3)='1' )then
+
+hit module
+		if(PF_temp_lv2_03(   4)='1' OR PF_temp_lv2_03(   5)='1' OR PF_temp_lv2_03(   6)='1' OR PF_temp_lv2_03(   7)='1' )then
+
+hit module
+		if(PF_temp_lv2_03(   8)='1' OR PF_temp_lv2_03(   9)='1' OR PF_temp_lv2_03(  10)='1' OR PF_temp_lv2_03(  11)='1' )then
+
+hit module
+		if(PF_temp_lv2_03(  12)='1' )then
+
+hit module
+		if(PF_temp_lv2_04(   0)='1' OR PF_temp_lv2_04(   1)='1' OR PF_temp_lv2_04(   2)='1' OR PF_temp_lv2_04(   3)='1' )then
+
+hit module
+		if(PF_temp_lv2_04(   4)='1' OR PF_temp_lv2_04(   5)='1' OR PF_temp_lv2_04(   6)='1' OR PF_temp_lv2_04(   7)='1' )then
+
+hit module
+		if(PF_temp_lv2_04(   8)='1' OR PF_temp_lv2_04(   9)='1' OR PF_temp_lv2_04(  10)='1' OR PF_temp_lv2_04(  11)='1' )then
+
+hit module
+		if(PF_temp_lv2_04(  12)='1' OR PF_temp_lv2_04(  13)='1' OR PF_temp_lv2_04(  14)='1' OR PF_temp_lv2_04(  15)='1' )then
+
+hit module
+		if(PF_temp_lv2_04(  16)='1' OR PF_temp_lv2_04(  17)='1' OR PF_temp_lv2_04(  18)='1' OR PF_temp_lv2_04(  19)='1' )then
+
+hit module
+		if(PF_temp_lv2_05(   0)='1' OR PF_temp_lv2_05(   1)='1' OR PF_temp_lv2_05(   2)='1' OR PF_temp_lv2_05(   3)='1' )then
+
+hit module
+		if(PF_temp_lv2_05(   4)='1' OR PF_temp_lv2_05(   5)='1' OR PF_temp_lv2_05(   6)='1' OR PF_temp_lv2_05(   7)='1' )then
+
+hit module
+		if(PF_temp_lv2_05(   8)='1' OR PF_temp_lv2_05(   9)='1' OR PF_temp_lv2_05(  10)='1' OR PF_temp_lv2_05(  11)='1' )then
+
+hit module
+		if(PF_temp_lv2_05(  12)='1' OR PF_temp_lv2_05(  13)='1' OR PF_temp_lv2_05(  14)='1' OR PF_temp_lv2_05(  15)='1' )then
+
+hit module
+		if(PF_temp_lv2_05(  16)='1' OR PF_temp_lv2_05(  17)='1' OR PF_temp_lv2_05(  18)='1' OR PF_temp_lv2_05(  19)='1' )then
+
+hit module
+		if(PF_temp_lv2_05(  20)='1' OR PF_temp_lv2_05(  21)='1' OR PF_temp_lv2_05(  22)='1' OR PF_temp_lv2_05(  23)='1' )then
+
+hit module
+		if(PF_temp_lv2_05(  24)='1' )then
+
+hit module
+		if(PF_temp_lv2_06(   0)='1' OR PF_temp_lv2_06(   1)='1' OR PF_temp_lv2_06(   2)='1' OR PF_temp_lv2_06(   3)='1' )then
+
+hit module
+		if(PF_temp_lv2_06(   4)='1' OR PF_temp_lv2_06(   5)='1' OR PF_temp_lv2_06(   6)='1' OR PF_temp_lv2_06(   7)='1' )then
+
+hit module
+		if(PF_temp_lv2_06(   8)='1' OR PF_temp_lv2_06(   9)='1' OR PF_temp_lv2_06(  10)='1' OR PF_temp_lv2_06(  11)='1' )then
+
+hit module
+		if(PF_temp_lv2_06(  12)='1' OR PF_temp_lv2_06(  13)='1' OR PF_temp_lv2_06(  14)='1' OR PF_temp_lv2_06(  15)='1' )then
+
+hit module
+		if(PF_temp_lv2_06(  16)='1' OR PF_temp_lv2_06(  17)='1' )then
+
+hit module
+		if(PF_temp_lv2_07(   0)='1' OR PF_temp_lv2_07(   1)='1' OR PF_temp_lv2_07(   2)='1' OR PF_temp_lv2_07(   3)='1' )then
+
+hit module
+		if(PF_temp_lv2_07(   4)='1' OR PF_temp_lv2_07(   5)='1' OR PF_temp_lv2_07(   6)='1' OR PF_temp_lv2_07(   7)='1' )then
+
+hit module
+		if(PF_temp_lv2_08(   0)='1' )then
+
+hit module
+		if(PF_temp_lv2_09(   0)='1' )then
+
+hit module
+		if(PF_temp_lv2_10(   0)='1' )then
+
+hit module
+		if(PF_temp_lv2_11(   0)='1' )then
+
+hit module
+		if(NF_temp_lv2_00(   0)='1' )then
+
+hit module
+		if(NF_temp_lv2_01(   0)='1' OR NF_temp_lv2_01(   1)='1' OR NF_temp_lv2_01(   2)='1' )then
+
+hit module
+		if(NF_temp_lv2_02(   0)='1' OR NF_temp_lv2_02(   1)='1' OR NF_temp_lv2_02(   2)='1' OR NF_temp_lv2_02(   3)='1' )then
+
+hit module
+		if(NF_temp_lv2_02(   4)='1' OR NF_temp_lv2_02(   5)='1' OR NF_temp_lv2_02(   6)='1' )then
+
+hit module
+		if(NF_temp_lv2_03(   0)='1' OR NF_temp_lv2_03(   1)='1' OR NF_temp_lv2_03(   2)='1' OR NF_temp_lv2_03(   3)='1' )then
+
+hit module
+		if(NF_temp_lv2_03(   4)='1' OR NF_temp_lv2_03(   5)='1' OR NF_temp_lv2_03(   6)='1' OR NF_temp_lv2_03(   7)='1' )then
+
+hit module
+		if(NF_temp_lv2_03(   8)='1' OR NF_temp_lv2_03(   9)='1' OR NF_temp_lv2_03(  10)='1' OR NF_temp_lv2_03(  11)='1' )then
+
+hit module
+		if(NF_temp_lv2_04(   0)='1' OR NF_temp_lv2_04(   1)='1' OR NF_temp_lv2_04(   2)='1' OR NF_temp_lv2_04(   3)='1' )then
+
+hit module
+		if(NF_temp_lv2_04(   4)='1' OR NF_temp_lv2_04(   5)='1' OR NF_temp_lv2_04(   6)='1' OR NF_temp_lv2_04(   7)='1' )then
+
+hit module
+		if(NF_temp_lv2_04(   8)='1' OR NF_temp_lv2_04(   9)='1' OR NF_temp_lv2_04(  10)='1' OR NF_temp_lv2_04(  11)='1' )then
+
+hit module
+		if(NF_temp_lv2_04(  12)='1' OR NF_temp_lv2_04(  13)='1' OR NF_temp_lv2_04(  14)='1' OR NF_temp_lv2_04(  15)='1' )then
+
+hit module
+		if(NF_temp_lv2_04(  16)='1' OR NF_temp_lv2_04(  17)='1' )then
+
+hit module
+		if(NF_temp_lv2_05(   0)='1' OR NF_temp_lv2_05(   1)='1' OR NF_temp_lv2_05(   2)='1' OR NF_temp_lv2_05(   3)='1' )then
+
+hit module
+		if(NF_temp_lv2_05(   4)='1' OR NF_temp_lv2_05(   5)='1' OR NF_temp_lv2_05(   6)='1' OR NF_temp_lv2_05(   7)='1' )then
+
+hit module
+		if(NF_temp_lv2_05(   8)='1' OR NF_temp_lv2_05(   9)='1' OR NF_temp_lv2_05(  10)='1' OR NF_temp_lv2_05(  11)='1' )then
+
+hit module
+		if(NF_temp_lv2_05(  12)='1' OR NF_temp_lv2_05(  13)='1' OR NF_temp_lv2_05(  14)='1' OR NF_temp_lv2_05(  15)='1' )then
+
+hit module
+		if(NF_temp_lv2_05(  16)='1' OR NF_temp_lv2_05(  17)='1' OR NF_temp_lv2_05(  18)='1' OR NF_temp_lv2_05(  19)='1' )then
+
+hit module
+		if(NF_temp_lv2_05(  20)='1' OR NF_temp_lv2_05(  21)='1' OR NF_temp_lv2_05(  22)='1' OR NF_temp_lv2_05(  23)='1' )then
+
+hit module
+		if(NF_temp_lv2_05(  24)='1' )then
+
+hit module
+		if(NF_temp_lv2_06(   0)='1' OR NF_temp_lv2_06(   1)='1' OR NF_temp_lv2_06(   2)='1' OR NF_temp_lv2_06(   3)='1' )then
+
+hit module
+		if(NF_temp_lv2_06(   4)='1' OR NF_temp_lv2_06(   5)='1' OR NF_temp_lv2_06(   6)='1' OR NF_temp_lv2_06(   7)='1' )then
+
+hit module
+		if(NF_temp_lv2_06(   8)='1' OR NF_temp_lv2_06(   9)='1' OR NF_temp_lv2_06(  10)='1' OR NF_temp_lv2_06(  11)='1' )then
+
+hit module
+		if(NF_temp_lv2_06(  12)='1' OR NF_temp_lv2_06(  13)='1' OR NF_temp_lv2_06(  14)='1' OR NF_temp_lv2_06(  15)='1' )then
+
+hit module
+		if(NF_temp_lv2_06(  16)='1' OR NF_temp_lv2_06(  17)='1' OR NF_temp_lv2_06(  18)='1' )then
+
+hit module
+		if(NF_temp_lv2_07(   0)='1' OR NF_temp_lv2_07(   1)='1' OR NF_temp_lv2_07(   2)='1' OR NF_temp_lv2_07(   3)='1' )then
+
+hit module
+		if(NF_temp_lv2_07(   4)='1' OR NF_temp_lv2_07(   5)='1' OR NF_temp_lv2_07(   6)='1' )then
+
+hit module
+		if(NF_temp_lv2_08(   0)='1' )then
+
+hit module
+		if(NF_temp_lv2_09(   0)='1' )then
+
+hit module
+		if(NF_temp_lv2_10(   0)='1' )then
+
+hit module
+		if(NF_temp_lv2_11(   0)='1' )then
+
+hit module
+		if(PF_temp_lv3_00(   0)='1' )then
+
+hit module
+		if(PF_temp_lv3_01(   0)='1' )then
+
+hit module
+		if(PF_temp_lv3_02(   0)='1' OR PF_temp_lv3_02(   1)='1' )then
+
+hit module
+		if(PF_temp_lv3_03(   0)='1' OR PF_temp_lv3_03(   1)='1' OR PF_temp_lv3_03(   2)='1' OR PF_temp_lv3_03(   3)='1' )then
+
+hit module
+		if(PF_temp_lv3_04(   0)='1' OR PF_temp_lv3_04(   1)='1' OR PF_temp_lv3_04(   2)='1' OR PF_temp_lv3_04(   3)='1' )then
+
+hit module
+		if(PF_temp_lv3_04(   4)='1' )then
+
+hit module
+		if(PF_temp_lv3_05(   0)='1' OR PF_temp_lv3_05(   1)='1' OR PF_temp_lv3_05(   2)='1' OR PF_temp_lv3_05(   3)='1' )then
+
+hit module
+		if(PF_temp_lv3_05(   4)='1' OR PF_temp_lv3_05(   5)='1' OR PF_temp_lv3_05(   6)='1' )then
+
+hit module
+		if(PF_temp_lv3_06(   0)='1' OR PF_temp_lv3_06(   1)='1' OR PF_temp_lv3_06(   2)='1' OR PF_temp_lv3_06(   3)='1' )then
+
+hit module
+		if(PF_temp_lv3_06(   4)='1' )then
+
+hit module
+		if(PF_temp_lv3_07(   0)='1' OR PF_temp_lv3_07(   1)='1' )then
+
+hit module
+		if(PF_temp_lv3_08(   0)='1' )then
+
+hit module
+		if(PF_temp_lv3_09(   0)='1' )then
+
+hit module
+		if(PF_temp_lv3_10(   0)='1' )then
+
+hit module
+		if(PF_temp_lv3_11(   0)='1' )then
+
+hit module
+		if(NF_temp_lv3_00(   0)='1' )then
+
+hit module
+		if(NF_temp_lv3_01(   0)='1' )then
+
+hit module
+		if(NF_temp_lv3_02(   0)='1' OR NF_temp_lv3_02(   1)='1' )then
+
+hit module
+		if(NF_temp_lv3_03(   0)='1' OR NF_temp_lv3_03(   1)='1' OR NF_temp_lv3_03(   2)='1' )then
+
+hit module
+		if(NF_temp_lv3_04(   0)='1' OR NF_temp_lv3_04(   1)='1' OR NF_temp_lv3_04(   2)='1' OR NF_temp_lv3_04(   3)='1' )then
+
+hit module
+		if(NF_temp_lv3_04(   4)='1' )then
+
+hit module
+		if(NF_temp_lv3_05(   0)='1' OR NF_temp_lv3_05(   1)='1' OR NF_temp_lv3_05(   2)='1' OR NF_temp_lv3_05(   3)='1' )then
+
+hit module
+		if(NF_temp_lv3_05(   4)='1' OR NF_temp_lv3_05(   5)='1' OR NF_temp_lv3_05(   6)='1' )then
+
+hit module
+		if(NF_temp_lv3_06(   0)='1' OR NF_temp_lv3_06(   1)='1' OR NF_temp_lv3_06(   2)='1' OR NF_temp_lv3_06(   3)='1' )then
+
+hit module
+		if(NF_temp_lv3_06(   4)='1' )then
+
+hit module
+		if(NF_temp_lv3_07(   0)='1' OR NF_temp_lv3_07(   1)='1' )then
+
+hit module
+		if(NF_temp_lv3_08(   0)='1' )then
+
+hit module
+		if(NF_temp_lv3_09(   0)='1' )then
+
+hit module
+		if(NF_temp_lv3_10(   0)='1' )then
+
+hit module
+		if(NF_temp_lv3_11(   0)='1' )then
+
+hit module
+		if(PF_temp_lv4_00(   0)='1' )then
+
+hit module
+		if(PF_temp_lv4_01(   0)='1' )then
+
+hit module
+		if(PF_temp_lv4_02(   0)='1' )then
+
+hit module
+		if(PF_temp_lv4_03(   0)='1' )then
+
+hit module
+		if(PF_temp_lv4_04(   0)='1' OR PF_temp_lv4_04(   1)='1' )then
+
+hit module
+		if(PF_temp_lv4_05(   0)='1' OR PF_temp_lv4_05(   1)='1' )then
+
+hit module
+		if(PF_temp_lv4_06(   0)='1' OR PF_temp_lv4_06(   1)='1' )then
+
+hit module
+		if(PF_temp_lv4_07(   0)='1' )then
+
+hit module
+		if(PF_temp_lv4_08(   0)='1' )then
+
+hit module
+		if(PF_temp_lv4_09(   0)='1' )then
+
+hit module
+		if(PF_temp_lv4_10(   0)='1' )then
+
+hit module
+		if(PF_temp_lv4_11(   0)='1' )then
+
+hit module
+		if(NF_temp_lv4_00(   0)='1' )then
+
+hit module
+		if(NF_temp_lv4_01(   0)='1' )then
+
+hit module
+		if(NF_temp_lv4_02(   0)='1' )then
+
+hit module
+		if(NF_temp_lv4_03(   0)='1' )then
+
+hit module
+		if(NF_temp_lv4_04(   0)='1' OR NF_temp_lv4_04(   1)='1' )then
+
+hit module
+		if(NF_temp_lv4_05(   0)='1' OR NF_temp_lv4_05(   1)='1' )then
+
+hit module
+		if(NF_temp_lv4_06(   0)='1' OR NF_temp_lv4_06(   1)='1' )then
+
+hit module
+		if(NF_temp_lv4_07(   0)='1' )then
+
+hit module
+		if(NF_temp_lv4_08(   0)='1' )then
+
+hit module
+		if(NF_temp_lv4_09(   0)='1' )then
+
+hit module
+		if(NF_temp_lv4_10(   0)='1' )then
+
+hit module
+		if(NF_temp_lv4_11(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_00(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_01(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_02(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_03(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_04(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_05(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_06(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_07(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_08(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_09(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_10(   0)='1' )then
+
+hit module
+		if(PF_temp_lv5_11(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_00(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_01(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_02(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_03(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_04(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_05(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_06(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_07(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_08(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_09(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_10(   0)='1' )then
+
+hit module
+		if(NF_temp_lv5_11(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_00(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_01(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_02(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_03(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_04(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_05(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_06(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_07(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_08(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_09(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_10(   0)='1' )then
+
+hit module
+		if(PF_temp_lv6_11(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_00(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_01(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_02(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_03(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_04(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_05(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_06(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_07(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_08(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_09(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_10(   0)='1' )then
+
+hit module
+		if(NF_temp_lv6_11(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_00(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_01(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_02(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_03(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_04(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_05(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_06(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_07(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_08(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_09(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_10(   0)='1' )then
+
+hit module
+		if(PF_temp_lv7_11(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_00(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_01(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_02(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_03(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_04(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_05(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_06(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_07(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_08(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_09(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_10(   0)='1' )then
+
+hit module
+		if(NF_temp_lv7_11(   0)='1' )then
+

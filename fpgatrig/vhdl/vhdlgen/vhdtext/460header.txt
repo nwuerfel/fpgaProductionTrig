@@ -1,0 +1,31 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+USE ieee.std_logic_unsigned.all;
+ENTITY code_460 IS
+   PORT( 
+      --*************************************************
+      -- V1495 Front Panel Ports (PORT A,B,C,G)
+      --*************************************************
+      A_DIN_L       : IN     std_logic_vector (31 DOWNTO 0);  -- In A (32 x LVDS/ECL)
+      B_DIN_L       : IN     std_logic_vector (31 DOWNTO 0);  -- In B (32 x LVDS/ECL)
+      D_DIN_L       : IN     std_logic_vector (31 DOWNTO 0);  -- In D (32 x LVDS/ECL)
+      E_DIN_L       : IN     std_logic_vector (31 DOWNTO 0);  -- In E (32 x LVDS/ECL)
+      F_DOUT_L      : OUT    std_logic_vector (31 DOWNTO 0);  -- OUT F (32 x LVDS/ECL)
+      C_DOUT_L      : OUT    std_logic_vector (31 DOWNTO 0);  -- Out C (32 x LVDS)
+      c1            : IN STD_LOGIC                            -- the PLL1 output
+   );
+END code_460 ;
+ARCHITECTURE rtl OF code_460 IS
+signal A     : std_logic_vector(31 downto 0);
+signal Aa     : std_logic_vector(31 downto 0);
+signal B     : std_logic_vector(31 downto 0);
+signal Ba     : std_logic_vector(31 downto 0);
+signal C     : std_logic_vector(31 downto 0);
+signal D     : std_logic_vector(31 downto 0);
+signal Da     : std_logic_vector(31 downto 0);
+signal E     : std_logic_vector(31 downto 0);
+signal Ea     : std_logic_vector(31 downto 0);
+signal Eb     : std_logic_vector(31 downto 0);
+signal F     : std_logic_vector(31 downto 0);
+signal G     : std_logic_vector(1 downto 0);
