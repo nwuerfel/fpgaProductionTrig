@@ -34,13 +34,14 @@ ROOTLIBS      = $(shell root-config --libs)
 ROOTGLIBS     = $(shell root-config --glibs)
 
 CXX           = g++
-CXXFLAGS      = -Wall -Wno-narrowing -std=c++11 -fno-rtti -fno-exceptions -fPIC \
+#CXXFLAGS      = -Wall -Wno-narrowing -std=c++11 -fno-rtti -fno-exceptions -fPIC \
    -DLINUXVERS -I$(ROOTSYS)/include -O
 
    # Linux with egcs
 INCLUDES      = -I$(ROOTSYS)/include
 CXX           = g++
-CXXFLAGS      = -O -Wall -Wno-narrowing -std=c++11 -fno-exceptions -fPIC $(INCLUDES)
+#CXXFLAGS      = -O -Wall -Wno-narrowing -std=c++11 -fno-exceptions -fPIC $(INCLUDES)
+CXXFLAGS      = -O -Wall -Wno-narrowing -std=c++11 -fPIC $(INCLUDES)
 LD            = g++
 LDFLAGS       =
 SOFLAGS       = -shared
