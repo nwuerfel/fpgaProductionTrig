@@ -1,10 +1,22 @@
 # looks at dumped ROC data from coda to determine intervals between
 # failures in testbench....
 
+#TODO
+
+#    error check inputs
+#    error check FPGA trigger 
+#    more flexible inputs
+#    clean up 2nd run through dat
+#
+#
+#
+#
+
 import matplotlib.pyplot as plt
 import math, sys
 from scipy import stats
 import numpy as np
+import os
 
 nBoards = 4
 eventlen = 16
@@ -17,8 +29,10 @@ tdcScale = 25./16
 
 
 triggers = {"FPGA1":0, "FPGA2":1, "FPGA3":2, "FPGA4":3, "FPGA5":4,\
-        "NIM1":5, "NIM2":6, "NIM3":7, "NIM4":8, "NIM5":5        
+        "NIM1":5, "NIM2":6, "NIM3":7, "NIM4":8, "NIM5":9        
     }
+
+    
 
 class boardWords:
     def __init__(self,rev,words,cStopTime):
@@ -103,15 +117,18 @@ def parseEvent(eventLines,eventNo):
     newEvent = event(nWords,boardData,eventNo,trigword)
     return newEvent
 
-def main(filename,maxEvents=-1):
+def main(filename,maxEvents=-1,trigger = triggers.get("FPGA5")):
     
     evNo = 0
     total_ev = 0
     nim4_ev = 0
+    runNo = int(filename[0:4])
     events = []
     badEvents = []
     noHitEvents = []
     maxEvents = int(maxEvents)
+    trigname = trigger
+    trigger = triggers.get(trigger)
     eventLines = []
     print "maxEvents: " + str(maxEvents)
 
@@ -155,27 +172,28 @@ def main(filename,maxEvents=-1):
                 # I think it's (LSB TO MSB) FPGA 1-5 NIM 1-5, then some
                 # ordering of EOS, BOS, FLUSH, ETC
 
-                # I think NIM4 
-                if int(event.trigType,16) >> 8:
-                    logfp.write("NIM4 ")
-                    logfp.write("event: " + str(idx)+"\n") 
-                    logfp.write("~~~~~~~~~\n")
+                #supports all triggers now
+                if int(event.trigType,16) >> int(trigger):
+#                    logfp.write("NIM4 ")
+#                    logfp.write("event: " + str(idx)+"\n") 
+#                    logfp.write("~~~~~~~~~\n")
                     nim4_ev = nim4_ev + 1
                     # fill hits on each board
                     for bdx, board in enumerate(event.boardData):
-                        logfp.write("hits for rev: " + board.revision +"\n")
-                        logfp.write("Clock: \n")
-                        logfp.write("~~~~~~~~~\n")
+#                        logfp.write("hits for rev: " + board.revision +"\n")
+#                        logfp.write("Clock: \n")
+#                        logfp.write("~~~~~~~~~\n")
+
                         #ck hits
                         if not board.clockHits:
                             logfp.write("no clockhits!\n")
                         else:
                             for hit in board.clockHits:
-                                logfp.write(str(hit[0]) + " " +
-                                    str(hit[1]) + "\n")
+#                                logfp.write(str(hit[0]) + " " +
+#                                    str(hit[1]) + "\n")
                                 ckDataArray[bdx].append([idx,hit])
-                        logfp.write("Channels: \n")
-                        logfp.write("~~~~~~~~~~\n")
+#                        logfp.write("Channels: \n")
+#                        logfp.write("~~~~~~~~~~\n")
                         # chan hits
                         if not board.channelHits:
                             logfp.write("no hits!\n")
@@ -183,8 +201,8 @@ def main(filename,maxEvents=-1):
                             hasHits = True
                             logfp.write("hit on board!\n")
                             for hit in board.channelHits:
-                                logfp.write(str(hit[0]) + " " + 
-                                    str(hit[1]) + "\n")
+#                                logfp.write(str(hit[0]) + " " + 
+#                                    str(hit[1]) + "\n")
                                 if hit[0] == '':
                                    print "wtf, empty..."
                                    print "event: " + str(idx)
@@ -192,8 +210,8 @@ def main(filename,maxEvents=-1):
                                    events[idx].eprint()
                                    quit()
                                 chDataArray[bdx].append([idx,hit])
-                        logfp.write("\n")                                
-                    logfp.write("\n") 
+#                        logfp.write("\n")                                
+#                    logfp.write("\n") 
                     if not hasHits:
                         noHitEvents.append(idx)
                 else: 
@@ -217,8 +235,8 @@ def main(filename,maxEvents=-1):
     print "NIM4 events: " + str(nim4_ev)
     print "events with no hits: " + str(len(noHitEvents))
     print "\'good events\': " + str(nim4_ev - len(noHitEvents))
-    print ("percent of events with hits: %.02f" % \
-        float((nim4_ev-len(noHitEvents))/float(len(events))))
+    print ("percent of events with hits: %0.03f" % \
+        float(100*(nim4_ev-len(noHitEvents))/float(nim4_ev)))
 
 #    for boarditem in ckDataArray:
 #        if not boarditem[1]:
@@ -243,7 +261,8 @@ def main(filename,maxEvents=-1):
 
         # new fig per guy
         fig = plt.figure(i)
-        fig.canvas.set_window_title("board rev: " + revs[i])
+        plt.rcParams["figure.figsize"] = [14,10]
+        fig.set_size_inches(14,9,forward=True)
 
         # sub off times from cstop
         cktimeData = np.subtract(ckCStopTime,cktimeData)
@@ -255,7 +274,6 @@ def main(filename,maxEvents=-1):
 
         # clock tdc distribtuion
         plt.subplot(3,1,1)
-        plt.rcParams["figure.figsize"] = [14,9]
         plt.hist(cktimeData,bins=int(max(cktimeData)-min(cktimeData))+1)
 #        plt.hist(cktimeData,bins=100)
         plt.title("clock tdc time")
@@ -265,25 +283,25 @@ def main(filename,maxEvents=-1):
 
         # channel tdc distributions
         plt.subplot(3,1,2)
-        plt.rcParams["figure.figsize"] = [14,9]
 
 #        plt.hist2d(chtimeData,chchData,
-#            bins=[int(max(chtimeData)-min(chtimeData))+1,48])
+#            bins=[int(max(chtimeData)-min(chtimeData))+1,96])
 
-        plt.hist2d(chtimeData,chchData,
+        h,xedges,a,b = plt.hist2d(chtimeData,chchData,
             bins=[133,96])
-
+        #plt.hlines([31,47,63,92],0,xedges[0],xedges[-1])
         plt.title("channel tdc times")
         #plt.ylim([min(chchData),max(chchData)])
         plt.ylabel("channel id")
         plt.xlabel("channel tdc time")
         plt.colorbar()
+       # plt.colorbar(orientation='vertical',pad=0.0)
+
         plt.legend()
 
         # single channel tdc distributions
         # get mode of the chans to plot most populous one
         plt.subplot(3,1,3)
-        plt.rcParams["figure.figsize"] = [14,9]
 
         maxchan = stats.mode(chchData)
         timesForChan = np.array([int(x[1][1],16) for x in chDataArray[i]
@@ -295,25 +313,36 @@ def main(filename,maxEvents=-1):
         timesForChan = np.subtract(stopTimeForChan,timesForChan)
         timesForChan = timesForChan * tdcScale
 
-        plt.hist(timesForChan)
+        plt.hist(timesForChan,bins=133)
         plt.title("single chan: (" + str(int(maxchan[0])) + ") tdc time")
         plt.ylabel("counts")
         plt.xlabel("tdc time")
         plt.legend()
 
-        plt.tight_layout()
+        plt.tight_layout(pad=2.0)
+        fig.suptitle("runNo: " + str(runNo) + ", TRIG: " + trigname)
+        fig.subplots_adjust(top=0.88)
 
-    plt.show()
+        try:
+            os.mkdir("outfiles/" + str(runNo) + "_" + trigname + "plots/")
+        except OSError:
+            print "exists"
+
+        plt.savefig("outfiles/" + str(runNo) + "_" + trigname + \
+            "plots/rev_" + str(revs[i]) + "_" + str(i) + ".png")
+    #plt.show()
 
 if __name__ == "__main__":
     
     if len(sys.argv) < 2:
-        print "usage: python pyDecode <file> <optional: maxevents>"        
+        print "usage: python pyDecode <file> <optional: maxevents> " +  \
+         "<trigType>"        
         quit()
     print "decoding...",
     print sys.argv[1]
-    if len(sys.argv) == 3:
-        main(sys.argv[1],sys.argv[2])
+    # TODO flexible parsing
+    if len(sys.argv) == 4:
+        main(sys.argv[1],sys.argv[2],sys.argv[3])
     else:
         main(sys.argv[1])
 

@@ -2,3 +2,6 @@
 *.dat
 *.swp
 *.out
+*.pdf
+*.png
+codadecoder/pyTiming/outfiles/*
